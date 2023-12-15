@@ -6,20 +6,9 @@
         "padding_top": 60,
         "padding_bottom": 80
       }
-    },
-    "e6452c23-d9b8-4d05-9ceb-c3d663f8b77d": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<button id=\"user-refund-btn\" class=\"button button--small\">Refund<\/button>\n\n<script>\n    const btn = document.querySelector(\"#user-refund-btn\");\n    console.log(btn)\n<\/script>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "main",
-    "e6452c23-d9b8-4d05-9ceb-c3d663f8b77d"
+    "main"
   ]
 }
