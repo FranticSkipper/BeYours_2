@@ -3,6 +3,8 @@
     "main": {
       "type": "main-account",
       "settings": {
+        "padding_top": 60,
+        "padding_bottom": 80
       }
     }
   },
