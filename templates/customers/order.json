@@ -10,7 +10,7 @@
     "e6452c23-d9b8-4d05-9ceb-c3d663f8b77d": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<button>123<\/button>\n\n<scritp>\n\n<\/script>",
+        "custom_liquid": "<button>123<\/button>\n\n<script>\n    console.log(123)\n<\/script>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
