@@ -1,4 +1,18 @@
-{%- liquid
+
+  {% include 'rapid-search-foc-wrapper-condition' %}
+  
+{% if  focIsEnabled == true %}
+  {% render 'rapid-search-collection-template' %}
+{% endif %}
+  
+  
+  
+{% if  focIsEnabled == true %}
+  <div id="rps-generated" style="display: none !important;" >
+{% endif %}
+  
+  
+  {%- liquid
   assign products_per_row = section.settings.products_per_row
   assign products_per_page = section.settings.products_per_row | times: section.settings.rows_per_page
   assign default_layout = 'grid-' | append: products_per_row
@@ -512,3 +526,10 @@
   ]
 }
 {% endschema %}
+
+   
+  
+{% if  focIsEnabled == true %}
+  <!-- rps-generated-div --></div>
+{% endif %}
+  
