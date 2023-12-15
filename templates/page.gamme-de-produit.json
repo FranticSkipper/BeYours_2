@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "narrow": true,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "a78e4759-33ce-4d6e-9977-fe8feb97d457": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15818396827695__a78e4759-33ce-4d6e-9977-fe8feb97d457-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "basics",
+            "image_position": "center center"
+          }
+        },
+        "template--15818396827695__a78e4759-33ce-4d6e-9977-fe8feb97d457-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "balanced-face",
+            "image_position": "center center"
+          }
+        },
+        "template--15818396827695__a78e4759-33ce-4d6e-9977-fe8feb97d457-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "citrus-care",
+            "image": "shopify:\/\/shop_images\/CITRUS_CARE_ANG.png",
+            "image_position": "center center"
+          }
+        },
+        "167b2b28-7ff8-4bcd-9213-39c4604746ea": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "even",
+            "image_position": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15818396827695__a78e4759-33ce-4d6e-9977-fe8feb97d457-featured_collection-1",
+        "template--15818396827695__a78e4759-33ce-4d6e-9977-fe8feb97d457-featured_collection-2",
+        "template--15818396827695__a78e4759-33ce-4d6e-9977-fe8feb97d457-featured_collection-3",
+        "167b2b28-7ff8-4bcd-9213-39c4604746ea"
+      ],
+      "settings": {
+        "show_view_all": false,
+        "show_divider": false,
+        "heading": "Collections",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "apply_overlay": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a78e4759-33ce-4d6e-9977-fe8feb97d457"
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "heading_size": "h0",
+        "show_description": true,
+        "show_image": true,
+        "apply_overlay": true,
+        "image_position": "center center",
+        "image_ratio": "550px",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "250px",
+        "show_text_below": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "subs": {
+      "type": "main-collection-subs",
+      "settings": {
+        "menu": "",
+        "per_row": 5,
+        "columns_mobile": "1",
+        "horizontal_on_mobile": true,
+        "grid_image": "product",
+        "image_ratio": "adapt",
+        "image_position": "center center",
+        "apply_overlay": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "435f1c5b-c9a5-406a-82f7-04d3e29aeefd": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15857844420655__435f1c5b-c9a5-406a-82f7-04d3e29aeefd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Glow is a face skincare range with prebiotics and niacinamide, among many other active ingredients, to maintain the balance in the skin microbiota, responsible for the correct skin functions. An unbalanced skin flora can trigger serious consequences and skin problems (acne, sensitivity, blemishes, wrinkles...) Niacinamide or vitamin B3 is known because of its many functions in the skin, such as regenerative, anti-inflammatory or depigmentant function. Glow combines prebiotics and niacinamide with other active ingredients to guarantee a global care in all skin types, even the most sensitive and demanding ones.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "969ad476-b424-4478-8ad0-ed98acd8cbc7": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Main active substances in this range:<\/strong><em>Actibiome PE, Niacinamide, Bakuchiol, DMAE and Acmelia oleracea.<\/em><\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15857844420655__435f1c5b-c9a5-406a-82f7-04d3e29aeefd-text-1",
+        "969ad476-b424-4478-8ad0-ed98acd8cbc7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner-1.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "48a0aba0-0d2b-4432-8a3b-dda149323192": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--15857844420655__48a0aba0-0d2b-4432-8a3b-dda149323192-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "MORE INFO",
+            "row_content": "<p>The skin is covered by millions of micro-organisms that create a microbiological barrier called microbiota. Skin microbiota is a very complex ecosystem with several functions, but its main role is to protect the skin and regulate its immune and regenerative systems. We can say that skin microbiota is the first defensive system, through the touch, acting as a guard that alerts the rest of the skin defensive organs if it is necessary (sebaceous gland, melanocyte, defensive cells...)<\/p><p>The skin suffers some changes that can alter the homoeostasis in the microbiota ecosystem. It triggers an unbalance between good bacteria and bad bacteria, which affects skin healthy and all its metabolic processes, creating infections such as acne, redness, reactive skins and problems in the regeneration and synthesis of collagen and elastin.<\/p><p>GLOW Prebiotics are active substances, sourced from biotechnological-processed natural fermentations, whose main role is feed and condition the ecosystem where bacteria are developed. These bacteria form the skin microbiota, which is key to the skin health and balance. They can regenerate the natural flora of our skin, in order to recover and balance it in a quick and efficient way. So they are cutting-edge active substances essential to treat every skin type, especially the most delicate, sensitive and intolerant ones.<\/p><p>GLOW can make that all skin departments work in synchrony, recovering the balance in the complex skin ecosystem.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15857844420655__48a0aba0-0d2b-4432-8a3b-dda149323192-collapsible_row-4"
+      ],
+      "settings": {
+        "open_first_collapsible_row": false,
+        "narrow": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_row": 4,
+        "rows_per_page": 3,
+        "columns_mobile": "2",
+        "pagination": "paginated",
+        "enable_sticky_facet": true,
+        "enable_sorting": true,
+        "enable_viewing": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_filtering_color_swatches": false,
+        "filtering_color_swatches_add_label": false,
+        "filtering_max_items": 6,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "show_divider": true,
+        "heading": "Recently viewed",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 60,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "subs",
+    "435f1c5b-c9a5-406a-82f7-04d3e29aeefd",
+    "48a0aba0-0d2b-4432-8a3b-dda149323192",
+    "product-grid",
+    "recently-viewed"
+  ]
+}

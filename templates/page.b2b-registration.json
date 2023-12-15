@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "narrow": true,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "170126950114d52023": {
+      "type": "apps",
+      "blocks": {
+        "d80a9cc0-a5cd-4cc6-9c5e-b501dc0dfced": {
+          "type": "shopify:\/\/apps\/formful-contact-form-builder\/blocks\/app-block-form\/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
+          "settings": {
+            "form_id": "form_8DrLSyGp-Q",
+            "max_width": 75,
+            "column_gap": 2,
+            "row_gap": 1
+          }
+        }
+      },
+      "block_order": [
+        "d80a9cc0-a5cd-4cc6-9c5e-b501dc0dfced"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "170126950114d52023"
+  ]
+}
