@@ -60,6 +60,13 @@
             "collection": "o-elements",
             "image_position": "center center"
           }
+        },
+        "79338172-b7d2-489e-b9f4-7749bb768105": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories",
+            "image_position": "center center"
+          }
         }
       },
       "block_order": [
@@ -69,7 +76,8 @@
         "a58f94b2-17c7-4553-b4bb-bc2986f79f6b",
         "877d76c3-4b4d-44fd-8191-c6f7b4e3fdb0",
         "49740482-9321-4e07-8b01-e378ab4b45ed",
-        "ecdaff9a-cf76-4024-8e71-01ea1e286a57"
+        "ecdaff9a-cf76-4024-8e71-01ea1e286a57",
+        "79338172-b7d2-489e-b9f4-7749bb768105"
       ],
       "settings": {
         "show_view_all": false,
