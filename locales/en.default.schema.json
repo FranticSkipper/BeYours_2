@@ -1207,17 +1207,11 @@
         }
       },
       "blocks": {
-        "image": {
-          "name": "Image",
+        "part": {
+          "name": "Part",
           "settings": {
-            "image": "Image"
-          }
-        },
-        "product": {
-          "name": "Product",
-          "settings": {
-            "product": {
-              "label": "Product"
+            "image": {
+              "label": "Image"
             },
             "header": {
               "content": "Hotspot"

@@ -33,8 +33,11 @@
                 {{ 'collection-1' | placeholder_svg_tag: 'placeholder' }}
               {%- endif -%}
             </div>
-            {%- for block in section.blocks -%}
-              {%- assign card_product = block.settings.product -%}
+            {%- for part in section.blocks -%}
+              {%- assign card_product = block.settings.image -%}
+              111
+              <img src="{{ card_product }}" alt="##">
+              222
               {%- if card_product != blank -%}
                 {%- if settings.quick_view_enabled and block.settings.enable_quick_view -%}
                   <link rel="stylesheet" href="{{ 'section-main-product.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -262,16 +265,16 @@
       "options": [
         {
           "value": "image_first",
-          "label": "t:sections.bundle-products.settings.layout.options__1.label"
+          "label": "t:sections.product-bundle-parts.settings.layout.options__1.label"
         },
         {
           "value": "text_first",
-          "label": "t:sections.bundle-products.settings.layout.options__2.label"
+          "label": "t:sections.product-bundle-parts.settings.layout.options__2.label"
         }
       ],
       "default": "image_first",
-      "label": "t:sections.bundle-products.settings.layout.label",
-      "info": "t:sections.bundle-products.settings.layout.info"
+      "label": "t:sections.product-bundle-parts.settings.layout.label",
+      "info": "t:sections.product-bundle-parts.settings.layout.info"
     },
     {
       "type": "select",
@@ -279,19 +282,19 @@
       "options": [
         {
           "value": "top",
-          "label": "t:sections.bundle-products.settings.text_box_position.options__1.label"
+          "label": "t:sections.product-bundle-parts.settings.text_box_position.options__1.label"
         },
         {
           "value": "middle",
-          "label": "t:sections.bundle-products.settings.text_box_position.options__2.label"
+          "label": "t:sections.product-bundle-parts.settings.text_box_position.options__2.label"
         },
         {
           "value": "bottom",
-          "label": "t:sections.bundle-products.settings.text_box_position.options__3.label"
+          "label": "t:sections.product-bundle-parts.settings.text_box_position.options__3.label"
         }
       ],
       "default": "top",
-      "label": "t:sections.bundle-products.settings.text_box_position.label"
+      "label": "t:sections.product-bundle-parts.settings.text_box_position.label"
     },
     {
       "type": "select",
@@ -486,11 +489,6 @@
           "label": "t:sections.product-bundle-parts.blocks.image.settings.image.label"
         },
         {
-          "type": "product",
-          "id": "product",
-          "label": "t:sections.product-bundle-parts.blocks.product.settings.product.label"
-        },
-        {
           "type": "select",
           "id": "image_ratio",
           "options": [
@@ -543,7 +541,7 @@
         {
           "type": "color",
           "id": "color",
-          "label": "t:sections.bundle-products.blocks.product.settings.color.label",
+          "label": "t:sections.product-bundle-parts.blocks.product.settings.color.label",
           "default": "#000000"
         },
         {
