@@ -44,12 +44,26 @@
             "horizontal": 45,
             "vertical": 65
           }
+        },
+        "27c4d6cf-d3af-4e9c-8840-2d141390ac6a": {
+          "type": "Part",
+          "settings": {
+            "text": "",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 62,
+            "vertical": 40
+          }
         }
       },
       "block_order": [
         "template--16007942045743__5c6ac866-4839-4448-8cbf-f6003053ed6d-Part-1",
         "template--16007942045743__5c6ac866-4839-4448-8cbf-f6003053ed6d-Part-2",
-        "template--16007942045743__5c6ac866-4839-4448-8cbf-f6003053ed6d-Part-3"
+        "template--16007942045743__5c6ac866-4839-4448-8cbf-f6003053ed6d-Part-3",
+        "27c4d6cf-d3af-4e9c-8840-2d141390ac6a"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pro-acid.png",
