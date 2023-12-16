@@ -5,10 +5,10 @@
       "settings": {
       }
     },
-    "751a7d85-ef79-4d54-a294-e6e5ec22d93b": {
+    "887255c7-279a-4a5e-bbd1-637b799df164": {
       "type": "product-bundle-parts",
       "blocks": {
-        "template--16007756513327__751a7d85-ef79-4d54-a294-e6e5ec22d93b-product-1": {
+        "template--16007756513327__887255c7-279a-4a5e-bbd1-637b799df164-product-1": {
           "type": "product",
           "settings": {
             "image": "shopify:\/\/shop_images\/FRP133Provisional.jpg",
@@ -22,7 +22,7 @@
             "vertical": 40
           }
         },
-        "template--16007756513327__751a7d85-ef79-4d54-a294-e6e5ec22d93b-product-2": {
+        "template--16007756513327__887255c7-279a-4a5e-bbd1-637b799df164-product-2": {
           "type": "product",
           "settings": {
             "product": "",
@@ -35,7 +35,7 @@
             "vertical": 45
           }
         },
-        "template--16007756513327__751a7d85-ef79-4d54-a294-e6e5ec22d93b-product-3": {
+        "template--16007756513327__887255c7-279a-4a5e-bbd1-637b799df164-product-3": {
           "type": "product",
           "settings": {
             "product": "",
@@ -50,12 +50,11 @@
         }
       },
       "block_order": [
-        "template--16007756513327__751a7d85-ef79-4d54-a294-e6e5ec22d93b-product-1",
-        "template--16007756513327__751a7d85-ef79-4d54-a294-e6e5ec22d93b-product-2",
-        "template--16007756513327__751a7d85-ef79-4d54-a294-e6e5ec22d93b-product-3"
+        "template--16007756513327__887255c7-279a-4a5e-bbd1-637b799df164-product-1",
+        "template--16007756513327__887255c7-279a-4a5e-bbd1-637b799df164-product-2",
+        "template--16007756513327__887255c7-279a-4a5e-bbd1-637b799df164-product-3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/FRP133Provisional.jpg",
         "layout": "image_first",
         "text_box_position": "top",
         "text_alignment": "left",
@@ -74,6 +73,6 @@
   },
   "order": [
     "main",
-    "751a7d85-ef79-4d54-a294-e6e5ec22d93b"
+    "887255c7-279a-4a5e-bbd1-637b799df164"
   ]
 }
