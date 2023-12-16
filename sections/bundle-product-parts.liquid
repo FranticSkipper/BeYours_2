@@ -92,7 +92,8 @@
               {%- for block in section.blocks -%}
 
                 {%- assign part_image = block.settings.image -%}
-                {%- assign part_text = block.settings.text -%}
+                {%- assign part_short_info = block.settings.short_info -%}
+                {%- assign part_info = block.settings.info -%}
 
                 <bundle-product data-block-id="{{ block.id }}" class="product-container">
                     {%- assign has_products = true -%}
@@ -116,11 +117,10 @@
                       </div>
                     {% endif %}
                     <div class="product-description">
-                      <div class="product-content">
-                        <p>{{ part_text }}</p>
-                        <div>
-                          <a href="#" class="product-title h4">Product url</a>
-                        </div> 
+                      <div class="product-content product-content part-info">
+                        <p class="part-info__text short">{{ part_short_info  }}</div>
+                        <button class="part-info__more">{{ "More" | t }} !!TRANSLATE</button>
+                        <p class="part-info__text">{{ short_info }}</p>
                       </div>
                     </div>
                 </bundle-product>
@@ -376,7 +376,12 @@
           },
           {
             "type": "textarea",
-            "id": "text",
+            "id": "short_info",
+            "label": "t:sections.bundle-product-parts.blocks.part.settings.short_info.label"
+          },
+          {
+            "type": "textarea",
+            "id": "info",
             "label": "t:sections.bundle-product-parts.blocks.part.settings.info.label"
           },
           {
