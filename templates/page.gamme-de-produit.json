@@ -74,6 +74,13 @@
             "collection": "pro-acid",
             "image_position": "center center"
           }
+        },
+        "b2ddb903-59c3-4032-be16-4ee1c21becc3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pure",
+            "image_position": "center center"
+          }
         }
       },
       "block_order": [
@@ -85,7 +92,8 @@
         "49740482-9321-4e07-8b01-e378ab4b45ed",
         "ecdaff9a-cf76-4024-8e71-01ea1e286a57",
         "79338172-b7d2-489e-b9f4-7749bb768105",
-        "263cd47d-33a0-4a35-b9f8-b668d0be43f1"
+        "263cd47d-33a0-4a35-b9f8-b668d0be43f1",
+        "b2ddb903-59c3-4032-be16-4ee1c21becc3"
       ],
       "settings": {
         "show_view_all": false,
