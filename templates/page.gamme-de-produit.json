@@ -81,6 +81,13 @@
             "collection": "the-active",
             "image_position": "center center"
           }
+        },
+        "7c4d1cd5-d832-4a46-9f73-c95d673d446c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "white-tea",
+            "image_position": "center center"
+          }
         }
       },
       "block_order": [
@@ -93,7 +100,8 @@
         "ecdaff9a-cf76-4024-8e71-01ea1e286a57",
         "79338172-b7d2-489e-b9f4-7749bb768105",
         "263cd47d-33a0-4a35-b9f8-b668d0be43f1",
-        "be8eec5d-c9e2-464c-8e41-4eea71db89a5"
+        "be8eec5d-c9e2-464c-8e41-4eea71db89a5",
+        "7c4d1cd5-d832-4a46-9f73-c95d673d446c"
       ],
       "settings": {
         "show_view_all": false,
