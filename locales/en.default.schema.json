@@ -1180,9 +1180,6 @@
         "name": "Bundle products"
       }
     },
-
-
-
     "bundle-product-parts": {
       "name": "Bundle product parts",
       "settings": {
@@ -1237,8 +1234,6 @@
         "name": "Bundle product parts"
       }
     },
-
-
     "cart-recommendations": {
       "name": "Cart recommendations",
       "settings": {
