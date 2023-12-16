@@ -1,3 +1,4 @@
+
   {%- style -%}
     #shopify-section-{{ section.id }} {
       --section-padding-top: {{ section.settings.padding_top }}px;
@@ -89,22 +90,24 @@
             {%- assign has_products = false -%}
             <div class="image-with-text__products">
               {%- for block in section.blocks -%}
+
                 {%- assign part_image = block.settings.image -%}
                 {%- assign part_text = block.settings.text -%}
+
                 <bundle-product data-block-id="{{ block.id }}" class="product-container">
-                  {%- if card_product != blank -%}
                     {%- assign has_products = true -%}
-                    {% if card_product.featured_image %}
+
+                    {% if part_image %}
                       <div class="product-image">
-                        <a href="{{ card_product.url }}" class="media-wrapper media-wrapper--small">
+                        <a href="#" class="media-wrapper media-wrapper--small">
                           <div class="media media--{{ block.settings.image_ratio }}"
-                            {%- if block.settings.image_ratio == 'adapt' %} style="--image-ratio-percent: {{ 1 | divided_by: card_product.featured_image.aspect_ratio | times: 100 }}%;"{% endif -%}
+                            {%- if block.settings.image_ratio == 'adapt' %} style="--image-ratio-percent: {{ 1 | divided_by: part_image.aspect_ratio | times: 100 }}%;"{% endif -%}
                           >
-                            <img srcset="{{ card_product.featured_image | image_url: width: 70 }} 1x, {{ card_product.featured_image | image_url: width: 140 }} 2x"
-                              src="{{ card_product.featured_image | image_url: width: 70 }}"
-                              alt="{{ card_product.featured_image.alt | escape | split: '#' | first }}"
+                            <img srcset="{{ part_image | image_url: width: 70 }} 1x, {{ part_image | image_url: width: 140 }} 2x"
+                              src="{{ part_image | image_url: width: 70 }}"
+                              alt="{{ part_image.alt | escape | split: '#' | first }}"
                               width="70"
-                              height="{{ 70 | divided_by: card_product.featured_image.aspect_ratio | ceil }}"
+                              height="{{ 70 | divided_by: part_image.aspect_ratio | ceil }}"
                               loading="lazy"
                               is="lazy-image"
                             />
@@ -114,108 +117,12 @@
                     {% endif %}
                     <div class="product-description">
                       <div class="product-content">
+                        <p>{{ part_text }}</p>
                         <div>
-                          {%- if block.settings.show_vendor -%} 
-                            <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
-                            <div class="caption-with-letter-spacing">{{ card_product.vendor }}</div>
-                          {%- endif -%}
-                          <a href="{{ card_product.url }}" class="product-title h4">{{ card_product.title }}</a>
-                        </div>
-                        
-                        {%- if card_product.available -%}
-                          <div class="product-button">
-                            {%- unless card_product.has_only_default_variant -%}
-                              <select-wrapper class="select">
-                                <select class="select__select"
-                                  name="id"
-                                  data-price_varies="{{ card_product.price_varies }}"
-                                  data-compare_at_price_varies="{{ card_product.compare_at_price_varies }}"
-                                >
-                                  {%- for variant in card_product.variants -%}
-                                    <option
-                                      {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
-                                      {% if variant.available == false %}disabled="disabled"{% endif %}
-                                      value="{{ variant.id }}"
-                                      data-available="{{ variant.available }}"
-                                      data-price="{{ variant.price }}"
-                                      data-compare_at_price="{{ variant.compare_at_price }}"
-                                    >
-                                      {{ variant.title }}
-                                      {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif -%}
-                                    </option>
-                                  {%- endfor -%}
-                                </select>
-                                {% render 'icon', icon: 'caret' %}
-                              </select-wrapper>
-                            {%- else -%}
-                              <input type="hidden" name="id" value="{{ card_product.selected_or_first_available_variant.id }}" />
-                            {%- endunless -%}
-  
-                            {%- if block.settings.show_quick_buy -%}
-                              <div class="button-wrapper">
-                              {%- if customer and customer.tags contains 'B2B' -%}
-                                 <add-to-cart class="button button--small button--cta" data-variant-id="{{ card_product.selected_or_first_available_variant.id }}">
-                                    <span class="small-hide">
-                                      <span class="label">{{ 'products.product.add_to_cart' | t }}</span>
-                                      {% render 'icon', icon: 'arrow' %}
-                                    </span>
-                                    <svg class="icon icon-cart medium-hide large-up-hide" aria-hidden="true" focusable="false">
-                                      <use href="#icon-cart"></use>
-                                    </svg>
-                                  </add-to-cart>
-                              {% endif %}
-                              </div>
-                            {%- endif -%}
-                          </div>
-                        {%- endif -%}
-                      </div>
-  
-                      {%- liquid
-                        assign target = card_product.selected_or_first_available_variant
-                      
-                        assign compare_at_price = target.compare_at_price
-                        assign price = target.price | default: 1999
-                        assign available = target.available | default: false
-                      -%}
-                      <div class="price
-                        {%- if available == false %} price--sold-out{%- elsif compare_at_price > price and available %} price--on-sale{% endif -%}
-                        {%- if card_product.price_varies == false and card_product.compare_at_price_varies %} price--no-compare{% endif -%}"
-                      >
-                        <div class="price__regular">
-                          <span class="price-item price-item--regular">
-                            <price-money><bdi>{% if settings.currency_code_enabled %}{{ price | money_with_currency }}{% else %}{{ price | money }}{% endif %}</bdi></price-money>
-                          </span>
-                        </div>
-                        <div class="price__sale">
-                          <span class="price__compare">
-                            <s class="price-item price-item--regular">
-                              <price-money><bdi>{% if settings.currency_code_enabled %}{{ compare_at_price | money_with_currency }}{% else %}{{ compare_at_price | money }}{% endif %}</bdi></price-money>
-                            </s>
-                          </span>
-                          <span class="price-item price-item--sale">
-                            <price-money><bdi>{% if settings.currency_code_enabled %}{{ price | money_with_currency }}{% else %}{{ price | money }}{% endif %}</bdi></price-money>
-                          </span>
-                        </div>
-                        <span class="badge price__badge-sold-out" aria-hidden="true">
-                          {{ 'products.product.sold_out' | t }}
-                        </span>
+                          <a href="#" class="product-title h4">Product url</a>
+                        </div> 
                       </div>
                     </div>
-                  {%- else -%}
-                    <div class="product-image">
-                      <div class="media-wrapper media-wrapper--small">
-                        <div class="media media--adapt" style="--image-ratio-percent: 100%;">
-                          {%- assign index = forloop.index | modulo: 3 | plus: 1 -%}
-                          {{ 'product-' | append: index | placeholder_svg_tag: 'placeholder' }}
-                        </div>
-                      </div>
-                    </div>
-                    <div class="product-description">
-                      <div class="product-content">
-                        <p class="product-title h4">{{ 'onboarding.product_title' | t }}</p>
-                      </div>
-                    </div>
-                  {%- endif -%}
                 </bundle-product>
               {%- endfor -%}
               
