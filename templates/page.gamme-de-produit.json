@@ -88,6 +88,13 @@
             "collection": "white-tea",
             "image_position": "center center"
           }
+        },
+        "2a431cec-5b44-4355-88c6-cc06d813de21": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sun-touch",
+            "image_position": "center center"
+          }
         }
       },
       "block_order": [
@@ -101,7 +108,8 @@
         "79338172-b7d2-489e-b9f4-7749bb768105",
         "263cd47d-33a0-4a35-b9f8-b668d0be43f1",
         "be8eec5d-c9e2-464c-8e41-4eea71db89a5",
-        "7c4d1cd5-d832-4a46-9f73-c95d673d446c"
+        "7c4d1cd5-d832-4a46-9f73-c95d673d446c",
+        "2a431cec-5b44-4355-88c6-cc06d813de21"
       ],
       "settings": {
         "show_view_all": false,
