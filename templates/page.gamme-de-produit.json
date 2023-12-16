@@ -54,17 +54,10 @@
             "image_position": "center center"
           }
         },
-        "b96ba48e-4886-4dff-9cc5-8b6b55a117f9": {
+        "ecdaff9a-cf76-4024-8e71-01ea1e286a57": {
           "type": "featured_collection",
           "settings": {
-            "collection": "massage-oils",
-            "image_position": "center center"
-          }
-        },
-        "99ee03c0-7a5a-4ab6-afff-b65933f7f23c": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "masks",
+            "collection": "o-elements",
             "image_position": "center center"
           }
         }
@@ -76,8 +69,7 @@
         "a58f94b2-17c7-4553-b4bb-bc2986f79f6b",
         "877d76c3-4b4d-44fd-8191-c6f7b4e3fdb0",
         "49740482-9321-4e07-8b01-e378ab4b45ed",
-        "b96ba48e-4886-4dff-9cc5-8b6b55a117f9",
-        "99ee03c0-7a5a-4ab6-afff-b65933f7f23c"
+        "ecdaff9a-cf76-4024-8e71-01ea1e286a57"
       ],
       "settings": {
         "show_view_all": false,
