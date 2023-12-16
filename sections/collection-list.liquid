@@ -21,7 +21,7 @@
     -%}
     <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %}{% if has_mobile_link %} title-wrapper--mobile-link{% endif %} {{ section.settings.heading_alignment }}">
       <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
-      
+
       {%- if has_mobile_link -%}
         <a href="{{ routes.collections_url }}" class="link link-with-icon large-up-hide">
           <span class="label">{{ 'sections.collection_list.view_all' | t }}</span>
@@ -31,7 +31,7 @@
 
     <slider-component class="slider-mobile-gutter">
       <ul id="Slider-{{ section.id }}"
-        class="collection-list grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.blocks.size < 5 %} grid--{{ section.blocks.size }}-col-tablet{% else %} grid--3-col-tablet{% endif %}{% if section.settings.swipe_on_mobile %} slider slider--tablet{% endif %} collection-list--{{ section.blocks.size }}-items{% if section.settings.apply_overlay %} collection-list--contrast{% endif %}"
+        class="collection-list grid grid--2-col{% if section.settings.columns_mobile == '1' %} grid--1-col-mobile{% endif %}{% if section.blocks.size < 5 %} grid--{{ section.blocks.size }}-col-tablet{% else %} grid--4-col-tablet{% endif %}{% if section.settings.swipe_on_mobile %} slider slider--tablet{% endif %} collection-list--{{ section.blocks.size }}-items{% if section.settings.apply_overlay %} collection-list--contrast{% endif %}"
         role="list"
       >
         {%- liquid
@@ -40,7 +40,7 @@
             assign columns = 3
           endif
         -%}
-        
+
         {%- capture sizes -%}(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px, (min-width: 750px) {% if section.blocks.size > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %}, calc(100vw - 10rem){%- endcapture -%}
         {%- for block in section.blocks -%}
           <li id="Slide-{{ section.id }}-{{ forloop.index }}"
