@@ -53,6 +53,20 @@
             "collection": "hy",
             "image_position": "center center"
           }
+        },
+        "b96ba48e-4886-4dff-9cc5-8b6b55a117f9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "massage-oils",
+            "image_position": "center center"
+          }
+        },
+        "99ee03c0-7a5a-4ab6-afff-b65933f7f23c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "oils",
+            "image_position": "center center"
+          }
         }
       },
       "block_order": [
@@ -61,7 +75,9 @@
         "167b2b28-7ff8-4bcd-9213-39c4604746ea",
         "a58f94b2-17c7-4553-b4bb-bc2986f79f6b",
         "877d76c3-4b4d-44fd-8191-c6f7b4e3fdb0",
-        "49740482-9321-4e07-8b01-e378ab4b45ed"
+        "49740482-9321-4e07-8b01-e378ab4b45ed",
+        "b96ba48e-4886-4dff-9cc5-8b6b55a117f9",
+        "99ee03c0-7a5a-4ab6-afff-b65933f7f23c"
       ],
       "settings": {
         "show_view_all": false,
