@@ -14,8 +14,8 @@
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <bundle-products class="image-with-text image-with-text--alt bundle-products page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
-    
-  <div class="image-with-text__grid{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %} grid grid--gapless grid--1-col grid--2-col-tablet">
+
+  <div class="1111111111111111 image-with-text__grid{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %} grid grid--gapless grid--1-col grid--2-col-tablet">
       <div class="grid__item">
         <lookbook-component class="lookbook">
           <use-animate data-animate="zoom-fade-small" class="bundle-products__content media-wrapper">
@@ -119,13 +119,13 @@
                   <div class="product-description">
                     <div class="product-content">
                       <div>
-                        {%- if block.settings.show_vendor -%} 
+                        {%- if block.settings.show_vendor -%}
                           <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
                           <div class="caption-with-letter-spacing">{{ card_product.vendor }}</div>
                         {%- endif -%}
                         <a href="{{ card_product.url }}" class="product-title h4">{{ card_product.title }}</a>
                       </div>
-                      
+
                       {%- if card_product.available -%}
                         <div class="product-button">
                           {%- unless card_product.has_only_default_variant -%}
@@ -176,7 +176,7 @@
 
                     {%- liquid
                       assign target = card_product.selected_or_first_available_variant
-                    
+
                       assign compare_at_price = target.compare_at_price
                       assign price = target.price | default: 1999
                       assign available = target.available | default: false
@@ -222,7 +222,7 @@
                 {%- endif -%}
               </bundle-product>
             {%- endfor -%}
-            
+
             {%- if has_products -%}
               <div class="product-form__error-message-wrapper" role="alert" hidden>
                 <svg aria-hidden="true" focusable="false" class="icon icon-error" viewBox="0 0 13 13">
