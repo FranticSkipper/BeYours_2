@@ -1180,6 +1180,65 @@
         "name": "Bundle products"
       }
     },
+
+
+
+    "bundle-product-parts": {
+      "name": "Bundle product parts",
+      "settings": {
+        "layout": {
+          "options__1": {
+            "label": "Image first"
+          },
+          "options__2": {
+            "label": "Image second"
+          },
+          "label": "Desktop layout",
+          "info": "Image first is the default mobile layout."
+        },
+        "text_box_position": {
+          "options__1": {
+            "label": "Top"
+          },
+          "options__2": {
+            "label": "Middle"
+          },
+          "options__3": {
+            "label": "Bottom"
+          },
+          "label": "Desktop content position"
+        }
+      },
+      "blocks": {
+        "product": {
+          "name": "Product",
+          "settings": {
+            "product": {
+              "label": "Product"
+            },
+            "header": {
+              "content": "Hotspot"
+            },
+            "color": {
+              "label": "Color"
+            },
+            "horizontal": {
+              "label": "Horizontal position",
+              "unit": "%"
+            },
+            "vertical": {
+              "label": "Vertical position",
+              "unit": "%"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Bundle product parts"
+      }
+    },
+
+
     "cart-recommendations": {
       "name": "Cart recommendations",
       "settings": {
