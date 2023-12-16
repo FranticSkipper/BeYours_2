@@ -1,5 +1,3 @@
-  <div>111111111111</div>
-
   {%- style -%}
     #shopify-section-{{ section.id }} {
       --section-padding-top: {{ section.settings.padding_top }}px;
@@ -91,7 +89,8 @@
             {%- assign has_products = false -%}
             <div class="image-with-text__products">
               {%- for block in section.blocks -%}
-                {%- assign card_product = block.settings.product -%}
+                {%- assign part_image = block.settings.image -%}
+                {%- assign part_text = block.settings.text -%}
                 <bundle-product data-block-id="{{ block.id }}" class="product-container">
                   {%- if card_product != blank -%}
                     {%- assign has_products = true -%}
