@@ -1210,11 +1210,11 @@
         }
       },
       "blocks": {
-        "product": {
-          "name": "Product",
+        "part": {
+          "name": "Part",
           "settings": {
-            "product": {
-              "label": "Product"
+            "image": {
+              "label": "Part"
             },
             "header": {
               "content": "Hotspot"
