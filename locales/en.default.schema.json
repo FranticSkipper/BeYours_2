@@ -1208,7 +1208,10 @@
       },
       "blocks": {
         "image": {
-          "name": "Part image"
+          "name": "Image",
+          "settings": {
+            "image": "Image"
+          }
         },
         "product": {
           "name": "Product",
@@ -1234,7 +1237,7 @@
         }
       },
       "presets": {
-        "name": "Bundle products"
+        "name": "Product bundle parts"
       }
     },
     "cart-recommendations": {
