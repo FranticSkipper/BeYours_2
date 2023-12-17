@@ -134,8 +134,13 @@
                       <div class="product-content product-content part-info">
                         <p class="part-info__text short">{{ part_short_info  }}</p>
                         <div class="part-info__accordion">
-                          <div class="part-info__more button">{{ "custom.buttons.show_more" | t }}</div>
-                          <p class="part-info__text">{{ short_info }}</p>
+                          <div class="part-info__accordion-header">
+                            <div class="part-info__accordion-open">{{ "custom.buttons.show_more" | t }}</div>
+                          </div>
+                  
+                          <div class="part-info__accordion-content">
+                            <p>{{ short_info }}</p>
+                          </div>
                         </div>
                       </div>
                     </div>
