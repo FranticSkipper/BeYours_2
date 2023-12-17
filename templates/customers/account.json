@@ -10,6 +10,23 @@
     "0a0ef992-a5a8-4d43-abe4-b1c822c76055": {
       "type": "rich-text",
       "blocks": {
+        "template--16007547093039__0a0ef992-a5a8-4d43-abe4-b1c822c76055-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16007547093039__0a0ef992-a5a8-4d43-abe4-b1c822c76055-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": ""
+          }
+        },
         "template--16007547093039__0a0ef992-a5a8-4d43-abe4-b1c822c76055-button-1": {
           "type": "button",
           "settings": {
@@ -21,6 +38,8 @@
         }
       },
       "block_order": [
+        "template--16007547093039__0a0ef992-a5a8-4d43-abe4-b1c822c76055-heading-1",
+        "template--16007547093039__0a0ef992-a5a8-4d43-abe4-b1c822c76055-text-1",
         "template--16007547093039__0a0ef992-a5a8-4d43-abe4-b1c822c76055-button-1"
       ],
       "settings": {
