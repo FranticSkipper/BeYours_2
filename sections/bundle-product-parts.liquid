@@ -1,20 +1,3 @@
-<script>    
-  addEventListener("load", () => {
-    const showMoreBtns = document.querySelectorAll(".part-info__accordion-header");
-
-    if (showMoreBtns.length) {
-      showMoreBtns.forEach(btn => {
-        btn.addEventListener("click", (e) => {
-          const parent = e.currentTarget.parentNode;
-          const content = parent.querySelector('.part-info__accordion-content');
-          
-          content.classList.toggle("hide");
-        });
-      });
-    }
-  });
-</script>
-
 {%- style -%}
   .part-info__accordion-content.hide {
     display: none;
