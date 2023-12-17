@@ -1,16 +1,25 @@
 <script>    
-  const itemsParts = document.querySelectorAll(".product-parts-items");
+  addEventListener("load", () => {
+    const showMoreBtns = document.querySelectorAll(".part-info__accordion-header");
 
-  if (itemsParts.length) {
-    
-    const showMore = itemsParts.querySelectorAll(".part-info__more.button");
-
-    showMore.addEventListener("click", () => {
-
-    })
-  }
-  console.log(123);
+    if (showMoreBtns.length) {
+      showMoreBtns.forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          const parent = e.currentTarget.parentNode;
+          const content = parent.querySelector('.part-info__accordion-content');
+          
+          content.classList.toggle("hide");
+        });
+      });
+    }
+  });
 </script>
+
+{%- style -%}
+  .part-info__accordion-content.hide {
+    display: none;
+  }
+{%- endstyle -%}
 
 
   {%- style -%}
@@ -135,11 +144,11 @@
                         <p class="part-info__text short">{{ part_short_info  }}</p>
                         <div class="part-info__accordion">
                           <div class="part-info__accordion-header">
-                            <div class="part-info__accordion-open">{{ "custom.buttons.show_more" | t }}</div>
+                            <div class="part-info__accordion-open button">{{ "custom.buttons.show_more" | t }}</div>
                           </div>
                   
-                          <div class="part-info__accordion-content">
-                            <p>{{ short_info }}</p>
+                          <div class="part-info__accordion-content hide">
+                            <p>{{ part_info }}</p>
                           </div>
                         </div>
                       </div>
