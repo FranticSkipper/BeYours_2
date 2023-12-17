@@ -109,7 +109,8 @@
           "type": "Part",
           "settings": {
             "image": "shopify:\/\/shop_images\/FRP133Provisional.jpg",
-            "text": "To prevent this from happening, FR~HAUT Cosmetics uses vitamin C in CITRUS CARE range, ensuring the efficacy of the product and the freshness of its active substances.\nTo achieve this, it uses three types of vitamin C:",
+            "short_info": "short info",
+            "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
             "image_ratio": "adapt",
             "show_vendor": false,
             "show_quick_buy": false,
@@ -123,7 +124,8 @@
           "type": "Part",
           "settings": {
             "image": "shopify:\/\/shop_images\/FRP126_suc.jpg",
-            "text": "1-Encapsulated vitamin C: the spheres are perfectly stored in the cream, maintaining all the vitamin properties intact inside. It is only when in contact with the skin that the sphere opens and releases all the power of the vitamin C, preventing the oxidation.",
+            "short_info": "short info",
+            "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
             "image_ratio": "adapt",
             "show_vendor": false,
             "show_quick_buy": false,
@@ -137,7 +139,8 @@
           "type": "Part",
           "settings": {
             "image": "shopify:\/\/shop_images\/FR1122_Solo_20.webp",
-            "text": "2- Ascorbyl Glucoside: more advanced studies have shown that it stabilises vitamin C and helps introduce it, making it more stable and long-lasting. It is an ascorbic acid derived molecule (pure vitamin C).",
+            "short_info": "short info",
+            "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
             "image_ratio": "adapt",
             "show_vendor": false,
             "show_quick_buy": false,
@@ -151,7 +154,8 @@
           "type": "Part",
           "settings": {
             "image": "shopify:\/\/shop_images\/exfoliatingclay.jpg",
-            "text": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
+            "short_info": "short info",
+            "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
             "image_ratio": "adapt",
             "show_vendor": false,
             "show_quick_buy": false,

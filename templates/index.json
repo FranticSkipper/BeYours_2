@@ -51,7 +51,8 @@
         "27c4d6cf-d3af-4e9c-8840-2d141390ac6a": {
           "type": "Part",
           "settings": {
-            "short_info": "",
+            "image": "shopify:\/\/shop_images\/FRP133SINTAPA.jpg",
+            "short_info": "short",
             "info": "info",
             "image_ratio": "adapt",
             "show_vendor": false,
