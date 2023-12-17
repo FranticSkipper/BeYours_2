@@ -1,3 +1,17 @@
+<script>    
+  const itemsParts = document.querySelectorAll(".product-parts-items");
+
+  if (itemsParts.length) {
+    
+    const showMore = itemsParts.querySelectorAll(".part-info__more.button");
+
+    showMore.addEventListener("click", () => {
+
+    })
+  }
+  console.log(123);
+</script>
+
 
   {%- style -%}
     #shopify-section-{{ section.id }} {
@@ -88,7 +102,7 @@
             <{{ section.settings.heading_tag }} class="image-with-text__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
   
             {%- assign has_products = false -%}
-            <div class="image-with-text__products">
+            <div class="image-with-text__products product-parts-items">
               {%- for block in section.blocks -%}
 
                 {%- assign part_image = block.settings.image -%}
@@ -118,9 +132,11 @@
                     {% endif %}
                     <div class="product-description">
                       <div class="product-content product-content part-info">
-                        <p class="part-info__text short">{{ part_short_info  }}</div>
-                        <button class="part-info__more">{{ "More" | t }} !!TRANSLATE</button>
-                        <p class="part-info__text">{{ short_info }}</p>
+                        <p class="part-info__text short">{{ part_short_info  }}</p>
+                        <div class="part-info__accordion">
+                          <div class="part-info__more button">{{ "custom.buttons.show_more" | t }}</div>
+                          <p class="part-info__text">{{ short_info }}</p>
+                        </div>
                       </div>
                     </div>
                 </bundle-product>
