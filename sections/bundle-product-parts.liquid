@@ -2,6 +2,27 @@
   .part-info__accordion-content.hide {
     display: none;
   }
+
+  .part-info__accordion-header {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .part-info__accordion {
+    border-bottom: 1px solid #000;
+  }
+
+  @media screen and (min-width: 750px) {
+    .part-info {
+      width: 100%;
+    }
+  }
+
+
+
+
+  part-info
 {%- endstyle -%}
 
 
@@ -127,7 +148,7 @@
                         <p class="part-info__text short">{{ part_short_info  }}</p>
                         <div class="part-info__accordion">
                           <div class="part-info__accordion-header">
-                            <div class="part-info__accordion-open button">{{ "custom.buttons.show_more" | t }}</div>
+                            <div class="part-info__accordion-open">{{ "custom.buttons.show_more" | t }}</div>
                           </div>
                   
                           <div class="part-info__accordion-content hide">
