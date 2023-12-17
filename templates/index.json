@@ -7,7 +7,8 @@
           "type": "Part",
           "settings": {
             "image": "shopify:\/\/shop_images\/FRP133Provisional.jpg",
-            "text": "The basis of all brand lines is high concentrations of plant-derived substances to maintain balance and restore the skin.\n\nQuality, innovation and results are FR-HAUT's strengths. The basis of all brand lines is high concentrations of plant-derived substances to maintain balance and restore the skin.\n\nQuality, innovation and results are FR-HAUT's strengths.",
+            "short_info": "short info",
+            "info": "info",
             "image_ratio": "adapt",
             "show_vendor": false,
             "show_quick_buy": false,
@@ -21,7 +22,8 @@
           "type": "Part",
           "settings": {
             "image": "shopify:\/\/shop_images\/FRP126_suc.jpg",
-            "text": "The basis of all brand lines is high concentrations of plant-derived substances to maintain balance and restore the skin.\n\nQuality, innovation and results are FR-HAUT's strengths. The basis of all brand lines is high concentrations of plant-derived substances to maintain balance and restore the skin.\n\nQuality, innovation and results are FR-HAUT's strengths.",
+            "short_info": "short info",
+            "info": "info",
             "image_ratio": "adapt",
             "show_vendor": false,
             "show_quick_buy": false,
@@ -35,7 +37,8 @@
           "type": "Part",
           "settings": {
             "image": "shopify:\/\/shop_images\/FRP133SINTAPA.jpg",
-            "text": "The basis of all brand lines is high concentrations of plant-derived substances to maintain balance and restore the skin.\n\nQuality, innovation and results are FR-HAUT's strengths. The basis of all brand lines is high concentrations of plant-derived substances to maintain balance and restore the skin.\n\nQuality, innovation and results are FR-HAUT's strengths.",
+            "short_info": "short info",
+            "info": "info",
             "image_ratio": "adapt",
             "show_vendor": false,
             "show_quick_buy": false,
@@ -48,7 +51,8 @@
         "27c4d6cf-d3af-4e9c-8840-2d141390ac6a": {
           "type": "Part",
           "settings": {
-            "text": "",
+            "short_info": "",
+            "info": "info",
             "image_ratio": "adapt",
             "show_vendor": false,
             "show_quick_buy": false,
