@@ -127,7 +127,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>The basis of all lines of the brand is the high concentrations of plant-derived substances which are crucial when in comes to restore the skin and maintain its balance. <\/p><p>Quality, innovation and results are FR-HAUT's strengths. <\/p>",
+            "text": "<p>The basis of all lines of the brand is the high concentrations of plant-derived substances which are crucial when iT comes to restore the skin and maintain its balance. <\/p><p>Quality, innovation and results are the strengths of FR-HAUT. <\/p>",
             "text_size": "typeset2",
             "secondary_color": false,
             "highlight_phrases": "high concentrations"
@@ -211,7 +211,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "400px",
         "show_text_below": false,
-        "colors_text": "#fff",
+        "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 20,
         "padding_top": 36,
