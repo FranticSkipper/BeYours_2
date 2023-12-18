@@ -170,14 +170,14 @@
           "type": "heading",
           "settings": {
             "heading": "BIOTECHNOLOGICAL COSMETICS",
-            "heading_size": "h2",
+            "heading_size": "h0",
             "heading_tag": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sinergy and balance between nature and technology.<\/p>",
+            "text": "<p>Sinergy and balance between nature and technology<\/p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -204,14 +204,14 @@
         "image_position": "80% 0",
         "text_box_position": "top",
         "text_alignment": "left",
-        "image_ratio": "700px",
+        "image_ratio": "100vh",
         "full_width": true,
         "show_divider": true,
         "image_mobile": "shopify:\/\/shop_images\/mobil.png",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "400px",
         "show_text_below": false,
-        "colors_text": "#ffffff",
+        "colors_text": "#fff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 20,
         "padding_top": 36,
