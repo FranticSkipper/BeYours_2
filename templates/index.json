@@ -225,32 +225,21 @@
           "type": "guarantee",
           "settings": {
             "icon": "leaf",
-            "icon_size": "medium",
+            "icon_size": "large",
             "custom_icon": "",
-            "title": "Vegan",
-            "title_size": "h4",
-            "text": ""
-          }
-        },
-        "guarantee-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "globe",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Not ON-LINE sales",
-            "title_size": "h4",
+            "title": "VEGAN",
+            "title_size": "h3",
             "text": ""
           }
         },
         "guarantee-2": {
           "type": "guarantee",
           "settings": {
-            "icon": "plant",
+            "icon": "paw_print",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Not tested on animals",
-            "title_size": "h4",
+            "title": "NOT TESTED ON ANIMALAS",
+            "title_size": "h3",
             "text": ""
           }
         },
@@ -260,17 +249,28 @@
             "icon": "shield",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Single-dose products to better preserve the active substances.",
-            "title_size": "h4",
+            "title": "SINGLE DOSE FOR BETTER PRESERVING OF ACTIVE SUBSTANCES",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "guarantee-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "globe",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "NOT FOR SALE ONLINE",
+            "title_size": "h3",
             "text": ""
           }
         }
       },
       "block_order": [
         "guarantee-0",
-        "guarantee-1",
         "guarantee-2",
-        "guarantee-3"
+        "guarantee-3",
+        "guarantee-1"
       ],
       "settings": {
         "layout": "default",
@@ -278,7 +278,7 @@
         "horizontal_content": false,
         "full_width": false,
         "show_divider": false,
-        "heading": "Guarantees",
+        "heading": "OUR GUARANTEES",
         "heading_size": "h1",
         "heading_tag": "h2",
         "columns_mobile": "1",
