@@ -144,7 +144,7 @@
         "horizontal_content": false,
         "narrow": true,
         "show_divider": false,
-        "use_custom_colors": false,
+        "use_custom_colors": true,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
         "colors_text": "#212326",
