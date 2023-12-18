@@ -204,7 +204,7 @@
         "image_position": "80% 0",
         "text_box_position": "top",
         "text_alignment": "left",
-        "image_ratio": "100vh",
+        "image_ratio": "450px",
         "full_width": true,
         "show_divider": true,
         "image_mobile": "shopify:\/\/shop_images\/mobil.png",
