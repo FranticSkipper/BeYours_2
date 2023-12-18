@@ -12,7 +12,7 @@
             "text_box_position": "bottom-left",
             "subheading": "",
             "subheading_size": "h3",
-            "heading": "We understand your skin",
+            "heading": "WE UNDERSTAND YOUR SKIN",
             "heading_size": "h1",
             "heading_tag": "h2",
             "text": "",
@@ -20,7 +20,7 @@
             "button_label": "MORE",
             "button_link": "https:\/\/638989-3.myshopify.com\/collections\/fr-haut",
             "button_size": "medium",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         },
         "slide-1": {
