@@ -200,9 +200,9 @@
         "buttons"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3.png",
+        "image": "shopify:\/\/shop_images\/Untitled-8.jpg",
         "image_position": "80% 0",
-        "text_box_position": "middle",
+        "text_box_position": "top",
         "text_alignment": "left",
         "image_ratio": "700px",
         "full_width": true,
