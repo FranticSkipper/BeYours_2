@@ -40,7 +40,7 @@
             "button_label": "See products",
             "button_link": "shopify:\/\/pages\/gamme-de-produit",
             "button_size": "medium",
-            "button_style_secondary": true
+            "button_style_secondary": false
           }
         },
         "slide-2": {
