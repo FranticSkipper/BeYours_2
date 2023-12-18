@@ -32,7 +32,7 @@
             "text_box_position": "bottom-left",
             "subheading": "",
             "subheading_size": "h5",
-            "heading": "TREATMENTS FACIAL CARE",
+            "heading": "FACIAL CARE KITS",
             "heading_size": "h1",
             "heading_tag": "h2",
             "text": "",
@@ -40,7 +40,7 @@
             "button_label": "See products",
             "button_link": "shopify:\/\/pages\/gamme-de-produit",
             "button_size": "medium",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         },
         "slide-2": {
@@ -94,7 +94,7 @@
         "slideshow_type": "legacy",
         "text_alignment": "center",
         "image_ratio": "100vh",
-        "autorotate": false,
+        "autorotate": true,
         "autorotate_speed": 5,
         "full_width": true,
         "image_behavior": "none",
