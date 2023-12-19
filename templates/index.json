@@ -799,6 +799,7 @@
         "5b50a933-1606-4a64-afee-3084de411c35",
         "5dbabf7c-2af4-4ab9-913a-e62e99f839db"
       ],
+      "disabled": true,
       "settings": {
         "layout": "text_first",
         "text_box_position": "top",
@@ -1113,11 +1114,11 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/6_81ed9797-ae01-4ec7-be1c-b3670e7507c0.png",
+        "image": "shopify:\/\/shop_images\/Untitled-14.jpg",
         "image_position": "center center",
         "text_box_position": "flex-end",
         "text_alignment": "right",
-        "image_ratio": "650px",
+        "image_ratio": "450px",
         "full_width": true,
         "show_divider": false,
         "image_behavior": "none",
