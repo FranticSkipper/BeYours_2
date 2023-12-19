@@ -1118,7 +1118,7 @@
         "image_position": "center center",
         "text_box_position": "flex-end",
         "text_alignment": "right",
-        "image_ratio": "450px",
+        "image_ratio": "500px",
         "full_width": true,
         "show_divider": false,
         "image_behavior": "none",
