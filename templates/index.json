@@ -95,7 +95,7 @@
         "text_alignment": "center",
         "image_ratio": "100vh",
         "autorotate": true,
-        "autorotate_speed": 9,
+        "autorotate_speed": 7,
         "full_width": true,
         "image_behavior": "none",
         "mobile_text_alignment": "center",
