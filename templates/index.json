@@ -170,7 +170,7 @@
           "type": "heading",
           "settings": {
             "heading": "BIOTECHNOLOGICAL COSMETICS",
-            "heading_size": "h0",
+            "heading_size": "h1",
             "heading_tag": "h2"
           }
         },
@@ -208,13 +208,13 @@
         "full_width": true,
         "show_divider": true,
         "image_mobile": "shopify:\/\/shop_images\/mobil.png",
-        "mobile_text_alignment": "left",
+        "mobile_text_alignment": "center",
         "mobile_image_ratio": "400px",
-        "show_text_below": false,
+        "show_text_below": true,
         "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 12,
-        "padding_top": 36,
+        "padding_top": 28,
         "padding_bottom": 36
       }
     },
