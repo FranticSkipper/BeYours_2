@@ -81,7 +81,7 @@
             "heading": "{{ product.metafields.custom.product_collapsible_tab_title_1.value }}",
             "content": "",
             "page": "",
-            "custom_liquid": "{%- liquid\n assign tabContentArr = product.metafields.custom.product_collapsible_tab_content_1 | split: '#'\n\nassign storeCurrentLang = shop.locale\n-%} \n\n{% case storeCurrentLang %}\n  {% when 'en' %}\n    {{ tabContentArr[0]}}\n  {% when 'fr' %}\n    {{ tabContent[1]}}(France).\n  {% else %}\n      {{ '' }}\n{% endcase %}",
+            "custom_liquid": "{%- liquid\n assign tabContentArr = product.metafields.custom.product_collapsible_tab_content_1 | split: '#'\n\nassign storeCurrentLang = shop.locale\n-%} \n\n{% case storeCurrentLang %}\n  {% when 'en' %}\n    {{ tabContentArr[0]}}\n  {% when 'fr' %}\n    {{ tabContentArr[1]}}\n  {% else %}\n      {{ '' }}\n{% endcase %}",
             "keep_open": false
           }
         },
