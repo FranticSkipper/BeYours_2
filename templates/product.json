@@ -79,9 +79,9 @@
           "settings": {
             "icon": "none",
             "heading": "{{ product.metafields.custom.product_collapsible_tab_title_1.value }}",
-            "content": "<p>{{ product.metafields.custom.product_collapsible_tab_content_1 | metafield_tag }}<\/p>",
+            "content": "",
             "page": "",
-            "custom_liquid": "{%- assign tabContent = product.metafields.custom.product_collapsible_tab_title_3\n-%} \n\n{%- assign storeCurrentLang = shop.shop_locale.endonym_name\n-%} \n\n{{ tabContent.fr | json}}",
+            "custom_liquid": "{%- liquid\n assign tabContent = product.metafields.custom.product_collapsible_tab_title_3\n\nassign storeCurrentLang = shop.locale\n-%} \n\n{% case storeCurrentLang %}\n  {% when 'en' %}\n    {{ tabContent.en | json}}\n  {% when 'fr' %}\n    {{ tabContent.fr | json}}(France).\n  {% else %}\n      {{111}}\n{% endcase %}",
             "keep_open": false
           }
         },
