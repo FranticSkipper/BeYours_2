@@ -81,7 +81,7 @@
             "heading": "{{ product.metafields.custom.product_collapsible_tab_title_1.value }}",
             "content": "<p>{{ product.metafields.custom.product_collapsible_tab_content_1 | metafield_tag }}<\/p>",
             "page": "",
-            "custom_liquid": "",
+            "custom_liquid": "{%- assign tabContent = product.metafields.custom.product_collapsible_tab_title_3\n-%} \n\n{%- assign storeCurrentLang = shop.shop_locale.endonym_name\n-%} \n\n{{ tabContent.fr | json}}",
             "keep_open": false
           }
         },
