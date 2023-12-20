@@ -46,7 +46,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-18.jpg",
+            "image": "shopify:\/\/shop_images\/3.jpg",
             "image_mobile": "shopify:\/\/shop_images\/mobile1.png",
             "image_position": "center center",
             "text_box_position": "bottom-left",
@@ -701,7 +701,7 @@
         "video_url": "",
         "use_custom_colors": true,
         "colors_button_label": "#0e0e0e",
-        "colors_button_background": "#fff",
+        "colors_button_background": "#ffffff",
         "colors_text": "#212326",
         "colors_background": "#f3f3f3",
         "gradient_background": "",
