@@ -47,7 +47,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/4.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/mobile3_d99b5dba-719b-46e1-ac13-62b981548dc9.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/mobile3_4f1a640d-57bb-4cba-a32b-ea84f31167f0.jpg",
             "image_position": "center center",
             "text_box_position": "bottom-left",
             "subheading": "",
@@ -200,7 +200,7 @@
         "buttons"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled-8.jpg",
+        "image": "shopify:\/\/shop_images\/giiu.jpg",
         "image_position": "80% 0",
         "text_box_position": "top",
         "text_alignment": "left",
