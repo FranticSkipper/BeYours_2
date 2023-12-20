@@ -40,7 +40,7 @@
 
       ],
       "settings": {
-        "logo": "shopify:\/\/shop_images\/EGE_287ad829-e012-41e8-a296-e96b4d0df8b3.png",
+        "logo": "shopify:\/\/shop_images\/cwwsc.png",
         "logo_height": 70,
         "mobile_logo_height": 44,
         "logo_position": "top-center",
@@ -53,7 +53,7 @@
         "enable_language_selector": true,
         "enable_sticky_header": false,
         "show_sticky_header_scroll_up": false,
-        "transparent_logo": "shopify:\/\/shop_images\/cwwsc.png",
+        "transparent_logo": "shopify:\/\/shop_images\/EGE_287ad829-e012-41e8-a296-e96b4d0df8b3.png",
         "enable_transparent_header": true,
         "enable_transparent_header_collection": true,
         "enable_transparent_header_custom": "",
