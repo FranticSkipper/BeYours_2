@@ -90,7 +90,7 @@
           "settings": {
             "icon": "none",
             "heading": "{{ product.metafields.custom.product_collapsible_tab_title_2.value }}",
-            "content": "<p>{{ product.metafields.custom.product_collapsible_tab_content_2 | metafield_tag }}<\/p>",
+            "content": "",
             "page": "",
             "custom_liquid": "{%- liquid\n assign contentArr = product.metafields.custom.product_collapsible_tab_content_2 | split: '#'\n-%}\n\n{% case shop.locale %}\n  {% when 'en' %}\n    {{ contentArr[0]}}\n  {% when 'fr' %}\n    {{ contentArr[1]}}\n  {% else %}\n      {{ '' }}\n{% endcase %}",
             "keep_open": false
@@ -101,7 +101,7 @@
           "settings": {
             "icon": "none",
             "heading": "{{ product.metafields.custom.product_collapsible_tab_title_3.value }}",
-            "content": "<p>{{ product.metafields.custom.product_collapsible_tab_content_3 | metafield_tag }}<\/p>",
+            "content": "",
             "page": "",
             "custom_liquid": "{%- liquid\n assign contentArr = product.metafields.custom.product_collapsible_tab_content_3 | split: '#'\n-%}\n\n{% case shop.locale %}\n  {% when 'en' %}\n    {{ contentArr[0]}}\n  {% when 'fr' %}\n    {{ contentArr[1]}}\n  {% else %}\n      {{ '' }}\n{% endcase %}",
             "keep_open": false
