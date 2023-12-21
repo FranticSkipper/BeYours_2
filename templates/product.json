@@ -78,7 +78,7 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "Skin Types",
+            "heading": "Subctances actives",
             "content": "",
             "page": "",
             "custom_liquid": "{%- liquid\n assign contentArr = product.metafields.custom.product_collapsible_tab_content_1 | split: '#'\n-%}\n\n{% case shop.locale %}\n  {% when 'en' %}\n    {{ contentArr[0]}}\n  {% when 'fr' %}\n    {{ contentArr[1]}}\n  {% else %}\n      {{ '' }}\n{% endcase %}\n\n<script>\nconsole.log(123)\n<\/script>",
@@ -89,7 +89,7 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "{{ product.metafields.custom.product_collapsible_tab_title_2.value }}",
+            "heading": "Skin Types",
             "content": "",
             "page": "",
             "custom_liquid": "{%- liquid\n assign contentArr = product.metafields.custom.product_collapsible_tab_content_2 | split: '#'\n-%}\n\n{% case shop.locale %}\n  {% when 'en' %}\n    {{ contentArr[0]}}\n  {% when 'fr' %}\n    {{ contentArr[1]}}\n  {% else %}\n      {{ '' }}\n{% endcase %}",
@@ -100,7 +100,7 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "{{ product.metafields.custom.product_collapsible_tab_title_3.value }}",
+            "heading": "Manual",
             "content": "",
             "page": "",
             "custom_liquid": "{%- liquid\n assign contentArr = product.metafields.custom.product_collapsible_tab_content_3 | split: '#'\n-%}\n\n{% case shop.locale %}\n  {% when 'en' %}\n    {{ contentArr[0]}}\n  {% when 'fr' %}\n    {{ contentArr[1]}}\n  {% else %}\n      {{ '' }}\n{% endcase %}",
