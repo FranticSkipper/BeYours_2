@@ -160,9 +160,9 @@
             "show_vendor": false,
             "show_quick_buy": false,
             "enable_quick_view": true,
-            "color": "#000000",
-            "horizontal": 30,
-            "vertical": 40
+            "color": "#ffffff",
+            "horizontal": 37,
+            "vertical": 74
           }
         }
       },
