@@ -202,7 +202,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/jgoih.jpg",
         "image_position": "80% 0",
-        "text_box_position": "bottom",
+        "text_box_position": "top",
         "text_alignment": "left",
         "image_ratio": "450px",
         "full_width": true,
