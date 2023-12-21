@@ -206,7 +206,7 @@
         "text_alignment": "left",
         "image_ratio": "450px",
         "full_width": true,
-        "show_divider": true,
+        "show_divider": false,
         "image_mobile": "shopify:\/\/shop_images\/mobil.png",
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "400px",
