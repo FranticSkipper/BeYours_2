@@ -81,7 +81,7 @@
             "heading": "Subctances actives",
             "content": "",
             "page": "",
-            "custom_liquid": "{%- liquid\n assign contentArr = product.metafields.custom.product_collapsible_tab_content_1 | split: '#'\n-%}\n\n{{ contentArr[1] }}",
+            "custom_liquid": "{%- liquid\n assign contentArr = product.metafields.custom.product_collapsible_tab_content_1 | split: '#'\n-%}\n\n{% case shop.locale %}\n  {% when 'en' %}\n    {{ contentArr[0]}}\n  {% when 'fr' %}\n    {{ contentArr[1]}}\n  {% else %}\n      {{ '' }}\n{% endcase %}",
             "keep_open": false
           }
         },
