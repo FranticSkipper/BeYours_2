@@ -298,7 +298,7 @@
         "collection": "citrus-care",
         "products_to_show": 8,
         "show_view_all": true,
-        "show_divider": false,
+        "show_divider": true,
         "heading": "",
         "heading_size": "h2",
         "heading_alignment": "left",
