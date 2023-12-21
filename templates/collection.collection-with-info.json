@@ -34,6 +34,13 @@
         "padding_bottom": 0
       }
     },
+    "52505007-6989-428e-a1a9-db69d22a6200": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 100,
+        "mobile_height": 28
+      }
+    },
     "cd29eef8-58d8-42c9-b911-9dbfd32c2815": {
       "type": "image-with-text",
       "blocks": {
@@ -159,6 +166,7 @@
   "order": [
     "banner",
     "subs",
+    "52505007-6989-428e-a1a9-db69d22a6200",
     "cd29eef8-58d8-42c9-b911-9dbfd32c2815",
     "0c3ab146-3dbe-4484-8f62-c89c41a8baf0",
     "product-grid",
