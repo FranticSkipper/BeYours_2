@@ -1321,8 +1321,8 @@
       ],
       "settings": {
         "per_row": 5,
-        "spacing_images": 0,
-        "image_height": 230,
+        "spacing_images": 20,
+        "image_height": 200,
         "apply_overlay": true,
         "full_width": false,
         "show_divider": false,
@@ -1332,7 +1332,7 @@
         "heading_tag": "h2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "mobile_image_height": 160,
+        "mobile_image_height": 150,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -1425,15 +1425,15 @@
         "18fb445d-f5e4-4642-8ade-4c668ac588b4"
       ],
       "settings": {
-        "direction": "left",
-        "speed": 1.2,
+        "direction": "right",
+        "speed": 2.5,
         "show_divider": false,
         "use_custom_colors": false,
         "colors_icon": "#ffffff",
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
+        "padding_top": 64,
         "padding_bottom": 36
       }
     },
