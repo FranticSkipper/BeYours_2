@@ -5,24 +5,30 @@
 
   .part-info__accordion-header {
     text-transform: uppercase;
-    padding-bottom: 10px;
+
     cursor: pointer;
+
+    border: 1px solid rgb(210, 213, 217);
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    color: rgba(var(--color-foreground),.75);
   }
 
-  .part-info__accordion {
-    border-bottom: 1px solid #000;
+  .part-info__text {
+    margin-bottom: 0;
   }
+
+  .bundle-products .product-description .part-info {
+    justify-content: start;
+  }
+
 
   @media screen and (min-width: 750px) {
     .part-info {
       width: 100%;
     }
   }
-
-
-
-
-  part-info
 {%- endstyle -%}
 
 
