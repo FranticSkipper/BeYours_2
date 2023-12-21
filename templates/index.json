@@ -1249,7 +1249,7 @@
         "image-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/citrus_care_b16e08e4-e62f-4d0e-80cb-10adb51f15d5.png",
+            "image": "shopify:\/\/shop_images\/insta1.jpg",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -1262,7 +1262,7 @@
         "image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/take_breath.png",
+            "image": "shopify:\/\/shop_images\/insta5.jpg",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h4",
@@ -1275,11 +1275,11 @@
         "image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/glow_c8451530-0b19-46bb-9b62-d75abddcf880.png",
+            "image": "shopify:\/\/shop_images\/insta2.jpg",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
-            "heading": "#summerMe",
+            "heading": "",
             "heading_size": "h3",
             "link": "shopify:\/\/collections",
             "text_box_position": "middle-center"
@@ -1288,7 +1288,7 @@
         "image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hy_44dcd5a3-eee1-408b-af2b-d33988fd909f.png",
+            "image": "shopify:\/\/shop_images\/insta3.jpg",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -1301,7 +1301,7 @@
         "image-4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/the_active.png",
+            "image": "shopify:\/\/shop_images\/insta4.jpg",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
