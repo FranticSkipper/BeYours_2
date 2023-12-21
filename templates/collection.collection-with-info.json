@@ -116,8 +116,8 @@
             "show_quick_buy": false,
             "enable_quick_view": true,
             "color": "#000000",
-            "horizontal": 43,
-            "vertical": 40
+            "horizontal": 26,
+            "vertical": 24
           }
         },
         "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-2": {
@@ -130,9 +130,9 @@
             "show_vendor": false,
             "show_quick_buy": false,
             "enable_quick_view": true,
-            "color": "#000000",
-            "horizontal": 70,
-            "vertical": 45
+            "color": "#ffffff",
+            "horizontal": 61,
+            "vertical": 58
           }
         },
         "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-3": {
