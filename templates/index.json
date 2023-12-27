@@ -601,7 +601,7 @@
           "type": "button",
           "settings": {
             "button_label": "MORE",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/bodycare",
             "button_size": "medium",
             "button_style_secondary": false
           }
