@@ -1011,40 +1011,40 @@
         "product-0": {
           "type": "product",
           "settings": {
-            "product": "actiox-serum",
+            "product": "radiance-peel",
             "image_ratio": "square",
             "show_vendor": true,
             "show_quick_buy": true,
             "enable_quick_view": true,
             "color": "#ffffff",
-            "horizontal": 30,
-            "vertical": 40
+            "horizontal": 53,
+            "vertical": 64
           }
         },
         "product-1": {
           "type": "product",
           "settings": {
-            "product": "body-splash-foam",
+            "product": "cleanser",
             "image_ratio": "square",
             "show_vendor": true,
             "show_quick_buy": true,
             "enable_quick_view": true,
             "color": "#ffffff",
-            "horizontal": 70,
-            "vertical": 45
+            "horizontal": 69,
+            "vertical": 53
           }
         },
         "product-2": {
           "type": "product",
           "settings": {
-            "product": "revitalizing-foam-mask",
+            "product": "toner",
             "image_ratio": "square",
             "show_vendor": true,
             "show_quick_buy": true,
             "enable_quick_view": true,
             "color": "#ffffff",
-            "horizontal": 45,
-            "vertical": 65
+            "horizontal": 86,
+            "vertical": 55
           }
         }
       },
@@ -1054,7 +1054,7 @@
         "product-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pro_acid.png",
+        "image": "shopify:\/\/shop_images\/CLEANSINGSET1.jpg",
         "layout": "text_first",
         "text_box_position": "top",
         "text_alignment": "center",
