@@ -36,7 +36,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/slide4_fr_ang.png",
         "image_position": "20% 100%",
-        "text_box_position": "middle-left",
+        "text_box_position": "middle-right",
         "text_alignment": "left",
         "image_ratio": "100vh",
         "show_text_box": true,
