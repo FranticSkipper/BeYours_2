@@ -34,129 +34,42 @@
         "padding_bottom": 0
       }
     },
-    "83f2ff8e-5b0a-4031-bccc-c2762b8afc2e": {
-      "type": "image-banner",
+    "0d4165f1-426c-499c-82ef-74d24677ed91": {
+      "type": "image-with-text",
       "blocks": {
-        "template--16007549780015__83f2ff8e-5b0a-4031-bccc-c2762b8afc2e-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--16007549780015__83f2ff8e-5b0a-4031-bccc-c2762b8afc2e-text-1": {
+        "template--16007549780015__0d4165f1-426c-499c-82ef-74d24677ed91-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>{{ collection.metafields.custom.short_description | metafield_tag }}<\/p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
-        },
-        "template--16007549780015__83f2ff8e-5b0a-4031-bccc-c2762b8afc2e-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
-        "template--16007549780015__83f2ff8e-5b0a-4031-bccc-c2762b8afc2e-heading-1",
-        "template--16007549780015__83f2ff8e-5b0a-4031-bccc-c2762b8afc2e-text-1",
-        "template--16007549780015__83f2ff8e-5b0a-4031-bccc-c2762b8afc2e-button-1"
+        "template--16007549780015__0d4165f1-426c-499c-82ef-74d24677ed91-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-1.jpg",
+        "image": "{{ collection.image }}",
         "image_position": "center center",
-        "text_box_position": "middle-left",
-        "text_alignment": "center",
-        "image_ratio": "100vh",
-        "show_text_box": true,
-        "full_width": true,
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
         "show_divider": false,
         "image_behavior": "none",
-        "mobile_text_alignment": "center",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_button_label": "#1a1b18",
-        "colors_button_background": "#ffffff",
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "55d54a9c-9595-4c22-831c-e25a3bc8b50e": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16007549780015__55d54a9c-9595-4c22-831c-e25a3bc8b50e-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/erfvefe.jpg",
-            "image_position": "center center",
-            "text_box_position": "bottom-left",
-            "subheading": "FR~HAUT",
-            "subheading_size": "h3",
-            "heading": "WE UNDERSTAND YOUR SKIN",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
-            "text_size": "typeset2",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--16007549780015__55d54a9c-9595-4c22-831c-e25a3bc8b50e-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/6.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/frp133_1.jpg",
-            "image_position": "center center",
-            "text_box_position": "bottom-left",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
-            "text_size": "typeset",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16007549780015__55d54a9c-9595-4c22-831c-e25a3bc8b50e-image-1",
-        "template--16007549780015__55d54a9c-9595-4c22-831c-e25a3bc8b50e-image-2"
-      ],
-      "settings": {
-        "slideshow_type": "legacy",
-        "text_alignment": "center",
-        "image_ratio": "100vh",
-        "autorotate": true,
-        "autorotate_speed": 5,
-        "full_width": true,
-        "image_behavior": "none",
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "100vh",
-        "show_text_below": false,
+        "enable_video_looping": false,
+        "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
-        "colors_text": "#1a1b18",
+        "colors_text": "#212326",
         "colors_background": "#ffffff",
-        "colors_overlay": "#ffffff",
-        "colors_overlay_opacity": 16,
-        "colors_navigation_text": "#ffffff",
-        "colors_navigation_background": "#1a1b18",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -183,127 +96,6 @@
         "heading": "",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "45266c24-2727-465f-8fd2-87fc87b07cda": {
-      "type": "bundle-product-parts",
-      "blocks": {
-        "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-1": {
-          "type": "Part",
-          "settings": {
-            "short_info": "To prevent this from happening, FR~HAUT Cosmetics uses...",
-            "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
-            "image_ratio": "adapt",
-            "color": "#ffffff",
-            "horizontal": 28,
-            "vertical": 57
-          }
-        },
-        "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-2": {
-          "type": "Part",
-          "settings": {
-            "short_info": "To prevent this from happening, FR~HAUT Cosmetics uses...",
-            "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
-            "image_ratio": "adapt",
-            "color": "#ffffff",
-            "horizontal": 61,
-            "vertical": 58
-          }
-        },
-        "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-3": {
-          "type": "Part",
-          "settings": {
-            "short_info": "To prevent this from happening, FR~HAUT Cosmetics uses...",
-            "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
-            "image_ratio": "adapt",
-            "color": "#ffffff",
-            "horizontal": 43,
-            "vertical": 61
-          }
-        },
-        "26f8fbf4-e3f0-4ba4-8953-fc1ab8f30b29": {
-          "type": "Part",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/exfoliatingclay.jpg",
-            "short_info": "To prevent this from happening, FR~HAUT Cosmetics uses...",
-            "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
-            "image_ratio": "adapt",
-            "color": "#ffffff",
-            "horizontal": 37,
-            "vertical": 74
-          }
-        }
-      },
-      "block_order": [
-        "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-1",
-        "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-2",
-        "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-3",
-        "26f8fbf4-e3f0-4ba4-8953-fc1ab8f30b29"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/frp126.jpg",
-        "layout": "image_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "full_width": false,
-        "show_divider": false,
-        "subheading": "Bundle & Save",
-        "subheading_size": "h5",
-        "heading": "Build Your Own Basket",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "06eeb4c7-bae0-415e-a173-bc1ad47139be": {
-      "type": "bundle-product-parts",
-      "blocks": {
-        "template--16007941554223__06eeb4c7-bae0-415e-a173-bc1ad47139be-Part-2": {
-          "type": "Part",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fr1125.jpg",
-            "short_info": "Part 1",
-            "info": "Info",
-            "image_ratio": "adapt",
-            "color": "#000000",
-            "horizontal": 31,
-            "vertical": 51
-          }
-        },
-        "template--16007941554223__06eeb4c7-bae0-415e-a173-bc1ad47139be-Part-3": {
-          "type": "Part",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/frp133.jpg",
-            "short_info": "Part 2",
-            "info": "info",
-            "image_ratio": "adapt",
-            "color": "#000000",
-            "horizontal": 12,
-            "vertical": 53
-          }
-        }
-      },
-      "block_order": [
-        "template--16007941554223__06eeb4c7-bae0-415e-a173-bc1ad47139be-Part-2",
-        "template--16007941554223__06eeb4c7-bae0-415e-a173-bc1ad47139be-Part-3"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/fr1125.jpg",
-        "layout": "image_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "full_width": false,
-        "show_divider": false,
-        "subheading": "Bundle & Save",
-        "subheading_size": "h5",
-        "heading": "Build Your Own Basket",
-        "heading_size": "h1",
         "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
@@ -366,11 +158,8 @@
   "order": [
     "banner",
     "subs",
-    "83f2ff8e-5b0a-4031-bccc-c2762b8afc2e",
-    "55d54a9c-9595-4c22-831c-e25a3bc8b50e",
+    "0d4165f1-426c-499c-82ef-74d24677ed91",
     "0c3ab146-3dbe-4484-8f62-c89c41a8baf0",
-    "45266c24-2727-465f-8fd2-87fc87b07cda",
-    "06eeb4c7-bae0-415e-a173-bc1ad47139be",
     "product-grid",
     "recently-viewed"
   ]
