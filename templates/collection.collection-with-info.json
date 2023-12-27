@@ -194,28 +194,20 @@
         "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-1": {
           "type": "Part",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FRP133Provisional.jpg",
             "short_info": "To prevent this from happening, FR~HAUT Cosmetics uses...",
             "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
             "image_ratio": "adapt",
-            "show_vendor": false,
-            "show_quick_buy": false,
-            "enable_quick_view": true,
             "color": "#ffffff",
-            "horizontal": 32,
-            "vertical": 64
+            "horizontal": 28,
+            "vertical": 57
           }
         },
         "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-2": {
           "type": "Part",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FRP126_suc.jpg",
             "short_info": "To prevent this from happening, FR~HAUT Cosmetics uses...",
             "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
             "image_ratio": "adapt",
-            "show_vendor": false,
-            "show_quick_buy": false,
-            "enable_quick_view": true,
             "color": "#ffffff",
             "horizontal": 61,
             "vertical": 58
@@ -224,13 +216,9 @@
         "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-3": {
           "type": "Part",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FR1122_Solo_20.webp",
             "short_info": "To prevent this from happening, FR~HAUT Cosmetics uses...",
             "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
             "image_ratio": "adapt",
-            "show_vendor": false,
-            "show_quick_buy": false,
-            "enable_quick_view": true,
             "color": "#ffffff",
             "horizontal": 43,
             "vertical": 61
@@ -243,9 +231,6 @@
             "short_info": "To prevent this from happening, FR~HAUT Cosmetics uses...",
             "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
             "image_ratio": "adapt",
-            "show_vendor": false,
-            "show_quick_buy": false,
-            "enable_quick_view": true,
             "color": "#ffffff",
             "horizontal": 37,
             "vertical": 74
@@ -259,7 +244,7 @@
         "26f8fbf4-e3f0-4ba4-8953-fc1ab8f30b29"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/FRP126.jpg",
+        "image": "shopify:\/\/shop_images\/frp126.jpg",
         "layout": "image_first",
         "text_box_position": "top",
         "text_alignment": "left",
@@ -281,31 +266,25 @@
         "template--16007941554223__06eeb4c7-bae0-415e-a173-bc1ad47139be-Part-2": {
           "type": "Part",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FR1125.jpg",
+            "image": "shopify:\/\/shop_images\/fr1125.jpg",
             "short_info": "Part 1",
             "info": "Info",
             "image_ratio": "adapt",
-            "show_vendor": false,
-            "show_quick_buy": false,
-            "enable_quick_view": true,
             "color": "#000000",
-            "horizontal": 70,
-            "vertical": 45
+            "horizontal": 31,
+            "vertical": 51
           }
         },
         "template--16007941554223__06eeb4c7-bae0-415e-a173-bc1ad47139be-Part-3": {
           "type": "Part",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FRP133.jpg",
+            "image": "shopify:\/\/shop_images\/frp133.jpg",
             "short_info": "Part 2",
             "info": "info",
             "image_ratio": "adapt",
-            "show_vendor": false,
-            "show_quick_buy": false,
-            "enable_quick_view": true,
             "color": "#000000",
-            "horizontal": 45,
-            "vertical": 65
+            "horizontal": 12,
+            "vertical": 53
           }
         }
       },
@@ -314,7 +293,7 @@
         "template--16007941554223__06eeb4c7-bae0-415e-a173-bc1ad47139be-Part-3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/FR1125.jpg",
+        "image": "shopify:\/\/shop_images\/fr1125.jpg",
         "layout": "image_first",
         "text_box_position": "top",
         "text_alignment": "left",
