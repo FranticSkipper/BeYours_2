@@ -18,7 +18,7 @@
             "text": "",
             "text_size": "typeset2",
             "button_label": "MORE",
-            "button_link": "https:\/\/638989-3.myshopify.com\/collections\/fr-haut",
+            "button_link": "shopify:\/\/pages\/fr-haut",
             "button_size": "medium",
             "button_style_secondary": false
           }
