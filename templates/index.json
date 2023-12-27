@@ -186,7 +186,7 @@
           "type": "buttons",
           "settings": {
             "button_label": "More",
-            "button_link": "https:\/\/638989-3.myshopify.com\/collections\/fr-haut",
+            "button_link": "shopify:\/\/pages\/fr-haut",
             "video_button": "",
             "video_url": "",
             "video_description": ""
