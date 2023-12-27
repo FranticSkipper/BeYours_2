@@ -35,8 +35,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/slide4_fr_ang.png",
-        "image_position": "80% 50%",
-        "text_box_position": "middle-right",
+        "image_position": "20% 100%",
+        "text_box_position": "middle-left",
         "text_alignment": "left",
         "image_ratio": "100vh",
         "show_text_box": true,
@@ -297,6 +297,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "enable_video_looping": false,
+        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
