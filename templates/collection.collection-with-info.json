@@ -188,6 +188,148 @@
         "padding_bottom": 36
       }
     },
+    "45266c24-2727-465f-8fd2-87fc87b07cda": {
+      "type": "bundle-product-parts",
+      "blocks": {
+        "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-1": {
+          "type": "Part",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FRP133Provisional.jpg",
+            "short_info": "To prevent this from happening, FR~HAUT Cosmetics uses...",
+            "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#ffffff",
+            "horizontal": 32,
+            "vertical": 64
+          }
+        },
+        "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-2": {
+          "type": "Part",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FRP126_suc.jpg",
+            "short_info": "To prevent this from happening, FR~HAUT Cosmetics uses...",
+            "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#ffffff",
+            "horizontal": 61,
+            "vertical": 58
+          }
+        },
+        "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-3": {
+          "type": "Part",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FR1122_Solo_20.webp",
+            "short_info": "To prevent this from happening, FR~HAUT Cosmetics uses...",
+            "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#ffffff",
+            "horizontal": 43,
+            "vertical": 61
+          }
+        },
+        "26f8fbf4-e3f0-4ba4-8953-fc1ab8f30b29": {
+          "type": "Part",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/exfoliatingclay.jpg",
+            "short_info": "To prevent this from happening, FR~HAUT Cosmetics uses...",
+            "info": "3- 3-O-Etyl- ascorbic acid: it is an ascorbic acid derived molecule (pure vitamin C) more stable and that can also stabilise vitamin C. This active substance is a great antioxidant and anti-inflammatory substance that can stimulate collagen synthesis and act on the melanocyte.",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#ffffff",
+            "horizontal": 37,
+            "vertical": 74
+          }
+        }
+      },
+      "block_order": [
+        "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-1",
+        "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-2",
+        "template--16007941554223__45266c24-2727-465f-8fd2-87fc87b07cda-Part-3",
+        "26f8fbf4-e3f0-4ba4-8953-fc1ab8f30b29"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FRP126.jpg",
+        "layout": "image_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "subheading": "Bundle & Save",
+        "subheading_size": "h5",
+        "heading": "Build Your Own Basket",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "06eeb4c7-bae0-415e-a173-bc1ad47139be": {
+      "type": "bundle-product-parts",
+      "blocks": {
+        "template--16007941554223__06eeb4c7-bae0-415e-a173-bc1ad47139be-Part-2": {
+          "type": "Part",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FR1125.jpg",
+            "short_info": "Part 1",
+            "info": "Info",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 70,
+            "vertical": 45
+          }
+        },
+        "template--16007941554223__06eeb4c7-bae0-415e-a173-bc1ad47139be-Part-3": {
+          "type": "Part",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FRP133.jpg",
+            "short_info": "Part 2",
+            "info": "info",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 45,
+            "vertical": 65
+          }
+        }
+      },
+      "block_order": [
+        "template--16007941554223__06eeb4c7-bae0-415e-a173-bc1ad47139be-Part-2",
+        "template--16007941554223__06eeb4c7-bae0-415e-a173-bc1ad47139be-Part-3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FR1125.jpg",
+        "layout": "image_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "subheading": "Bundle & Save",
+        "subheading_size": "h5",
+        "heading": "Build Your Own Basket",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -248,6 +390,8 @@
     "83f2ff8e-5b0a-4031-bccc-c2762b8afc2e",
     "55d54a9c-9595-4c22-831c-e25a3bc8b50e",
     "0c3ab146-3dbe-4484-8f62-c89c41a8baf0",
+    "45266c24-2727-465f-8fd2-87fc87b07cda",
+    "06eeb4c7-bae0-415e-a173-bc1ad47139be",
     "product-grid",
     "recently-viewed"
   ]

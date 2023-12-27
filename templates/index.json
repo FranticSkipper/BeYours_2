@@ -1424,6 +1424,7 @@
         "7a514183-e51f-44c9-a31b-247cc37797b3",
         "18fb445d-f5e4-4642-8ade-4c668ac588b4"
       ],
+      "disabled": true,
       "settings": {
         "direction": "left",
         "speed": 2.5,
@@ -1471,6 +1472,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "map_address": "620 King St W, Toronto, ON M5V 1M7, Canada",
         "map_api_key": "",
