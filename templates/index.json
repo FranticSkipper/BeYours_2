@@ -1056,7 +1056,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/CLEANSINGSET1.jpg",
         "layout": "text_first",
-        "text_box_position": "top",
+        "text_box_position": "middle",
         "text_alignment": "center",
         "mobile_text_alignment": "center",
         "full_width": false,
