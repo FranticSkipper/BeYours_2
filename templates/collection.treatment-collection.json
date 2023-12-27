@@ -193,6 +193,7 @@
         "template--16055777656879__e025e035-f1eb-4a3c-9118-c156f718d3c1-Part-1": {
           "type": "Part",
           "settings": {
+            "image": "shopify:\/\/shop_images\/frp131_ed2560cc-2bd4-467f-9fd2-15e684d12f49.jpg",
             "short_info": "",
             "info": "",
             "image_ratio": "adapt",
@@ -204,8 +205,9 @@
         "template--16055777656879__e025e035-f1eb-4a3c-9118-c156f718d3c1-Part-2": {
           "type": "Part",
           "settings": {
-            "short_info": "",
-            "info": "",
+            "image": "shopify:\/\/shop_images\/fr1125_2.jpg",
+            "short_info": "short info",
+            "info": "info",
             "image_ratio": "adapt",
             "color": "#000000",
             "horizontal": 70,
@@ -230,6 +232,7 @@
         "template--16055777656879__e025e035-f1eb-4a3c-9118-c156f718d3c1-Part-3"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/fr1125_1.jpg",
         "layout": "image_first",
         "text_box_position": "top",
         "text_alignment": "left",
