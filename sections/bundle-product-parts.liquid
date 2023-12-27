@@ -133,7 +133,7 @@
 
                     {% if part_image %}
                       <div class="product-image">
-                        <a href="#" class="media-wrapper media-wrapper--small">
+                        <div class="media-wrapper media-wrapper--small">
                           <div class="media media--{{ block.settings.image_ratio }}"
                             {%- if block.settings.image_ratio == 'adapt' %} style="--image-ratio-percent: {{ 1 | divided_by: part_image.aspect_ratio | times: 100 }}%;"{% endif -%}
                           >
@@ -146,7 +146,7 @@
                               is="lazy-image"
                             />
                           </div>
-                        </a>
+                        </div>
                       </div>
                     {% endif %}
                     <div class="product-description">
