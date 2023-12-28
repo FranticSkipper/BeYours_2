@@ -140,12 +140,71 @@
         "padding_top": 20,
         "padding_bottom": 36
       }
+    },
+    "64b1603c-1cd2-4ecc-891e-959e2b41648f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16061252042799__64b1603c-1cd2-4ecc-891e-959e2b41648f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The science of nature",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16061252042799__64b1603c-1cd2-4ecc-891e-959e2b41648f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We create transformative skincare with naturally-derived ingredients, designed to complement skin’s natural activities and noticeably improve how the skin looks and feels.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "454e41f8-2e49-4fe9-a815-167c6ffc9e4b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Today, our Be Yours Bio-Tech Lab scientists fuse over 30 years of Be Yours expertise in plant science and skin physiology, and meticulously identify the high-performing, bioactive elements of plant- and earth-based ingredients—then use innovative technologies to unleash and amplify their benefits.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16061252042799__64b1603c-1cd2-4ecc-891e-959e2b41648f-heading-1",
+        "template--16061252042799__64b1603c-1cd2-4ecc-891e-959e2b41648f-text-1",
+        "454e41f8-2e49-4fe9-a815-167c6ffc9e4b"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bannerregheghe.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "ea5bbfe5-e6c6-415a-9c2a-97392488304a",
     "f1b50099-78b3-41bc-8710-d8b02a44ef73",
-    "c01c5217-4eb0-4578-89ca-ebfd0d70a183"
+    "c01c5217-4eb0-4578-89ca-ebfd0d70a183",
+    "64b1603c-1cd2-4ecc-891e-959e2b41648f"
   ]
 }
