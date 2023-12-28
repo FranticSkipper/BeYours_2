@@ -47,77 +47,30 @@
         "padding_bottom": 36
       }
     },
-    "3d3c7b33-6752-40bb-a013-2feda363dc0c": {
-      "type": "image-banner",
-      "blocks": {
-        "template--15814370132015__3d3c7b33-6752-40bb-a013-2feda363dc0c-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "PROFESSIONAL COSMETICS",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "d4a4cee4-96f7-44c5-b82a-89d8105f7dc7": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "OF QUALITY",
-            "subheading_size": "h5",
-            "secondary_color": false
-          }
-        },
-        "template--15814370132015__3d3c7b33-6752-40bb-a013-2feda363dc0c-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our products are intended for professionals in the field of aesthetics and cosmetology.<\/p><p>The brands offered are able to provide complete appearance care at the cellular level, while preserving the integrity of the skin.<\/p><p>Our brands are based on advanced nanotechnologies, innovative developments and scientific discoveries in the fields of medicine, biochemistry and cosmetology.<\/p><p>We offer unique and, above all, effective cosmetic products for professional skin care of the face and body.<\/p><p>Thus, opening a vast world of premium quality products to cosmetologists.<\/p><p>All our product brands come from Europe.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15814370132015__3d3c7b33-6752-40bb-a013-2feda363dc0c-heading-1",
-        "d4a4cee4-96f7-44c5-b82a-89d8105f7dc7",
-        "template--15814370132015__3d3c7b33-6752-40bb-a013-2feda363dc0c-text-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/slide4_fr_ang.png",
-        "image_position": "80% 50%",
-        "text_box_position": "middle-right",
-        "text_alignment": "left",
-        "image_ratio": "100vh",
-        "show_text_box": true,
-        "full_width": true,
-        "show_divider": false,
-        "image_behavior": "none",
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "auto",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "colors_button_label": "#1a1b18",
-        "colors_button_background": "#ffffff",
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 28,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "3b351148-f923-461c-b4be-ffe5723b9229": {
+    "f1b50099-78b3-41bc-8710-d8b02a44ef73": {
       "type": "rich-text",
       "blocks": {
-        "template--15814370132015__3b351148-f923-461c-b4be-ffe5723b9229-heading-1": {
+        "ae8543f4-fc43-464b-86b5-f6a34c869f97": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Be Yours is a new approach to beauty. It’s about fun and freedom and being OK with yourself today. We make intuitive, uncomplicated products designed to live with you.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": ""
+          }
+        },
+        "template--16061252042799__f1b50099-78b3-41bc-8710-d8b02a44ef73-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Fe-Haut",
+            "heading": "Our vision",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
         },
-        "template--15814370132015__3b351148-f923-461c-b4be-ffe5723b9229-text-1": {
+        "template--16061252042799__f1b50099-78b3-41bc-8710-d8b02a44ef73-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Biotechnological cosmetics, the latest technologies and the highest quality customer service!<\/p>",
+            "text": "<p>Is to give melanin rich skin the attention it deserves. We don't want to just nurture your skin—we want you to discover the beauty that lies within. Our goal is to give you the confidence to look in the mirror and truly love the skin you're in.<\/p>",
             "text_size": "typeset2",
             "secondary_color": false,
             "highlight_phrases": ""
@@ -125,12 +78,13 @@
         }
       },
       "block_order": [
-        "template--15814370132015__3b351148-f923-461c-b4be-ffe5723b9229-heading-1",
-        "template--15814370132015__3b351148-f923-461c-b4be-ffe5723b9229-text-1"
+        "ae8543f4-fc43-464b-86b5-f6a34c869f97",
+        "template--16061252042799__f1b50099-78b3-41bc-8710-d8b02a44ef73-heading-1",
+        "template--16061252042799__f1b50099-78b3-41bc-8710-d8b02a44ef73-text-1"
       ],
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
         "horizontal_content": false,
         "narrow": false,
         "show_divider": false,
@@ -144,192 +98,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "6ae92569-7cb1-43ec-9741-5ae2e146e464": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15814370132015__6ae92569-7cb1-43ec-9741-5ae2e146e464-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--15814370132015__6ae92569-7cb1-43ec-9741-5ae2e146e464-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--15814370132015__6ae92569-7cb1-43ec-9741-5ae2e146e464-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15814370132015__6ae92569-7cb1-43ec-9741-5ae2e146e464-heading-1",
-        "template--15814370132015__6ae92569-7cb1-43ec-9741-5ae2e146e464-text-1",
-        "template--15814370132015__6ae92569-7cb1-43ec-9741-5ae2e146e464-button-1"
-      ],
-      "settings": {
-        "image_position": "center center",
-        "layout": "image_first",
-        "text_box_position": "middle",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "enlarge_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "image_behavior": "none",
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "enable_video_looping": false,
-        "video_url": "",
-        "use_custom_colors": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "beb4be42-e26f-4d74-9f9d-fbd11f70701f": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15814370132015__beb4be42-e26f-4d74-9f9d-fbd11f70701f-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--15814370132015__beb4be42-e26f-4d74-9f9d-fbd11f70701f-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--15814370132015__beb4be42-e26f-4d74-9f9d-fbd11f70701f-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15814370132015__beb4be42-e26f-4d74-9f9d-fbd11f70701f-heading-1",
-        "template--15814370132015__beb4be42-e26f-4d74-9f9d-fbd11f70701f-text-1",
-        "template--15814370132015__beb4be42-e26f-4d74-9f9d-fbd11f70701f-button-1"
-      ],
-      "settings": {
-        "image_position": "center center",
-        "layout": "text_first",
-        "text_box_position": "middle",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "enlarge_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "image_behavior": "none",
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "enable_video_looping": false,
-        "video_url": "",
-        "use_custom_colors": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "3cc0137c-9505-44c4-a49f-f24a6c9f4a1e": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15814370132015__3cc0137c-9505-44c4-a49f-f24a6c9f4a1e-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--15814370132015__3cc0137c-9505-44c4-a49f-f24a6c9f4a1e-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "template--15814370132015__3cc0137c-9505-44c4-a49f-f24a6c9f4a1e-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15814370132015__3cc0137c-9505-44c4-a49f-f24a6c9f4a1e-heading-1",
-        "template--15814370132015__3cc0137c-9505-44c4-a49f-f24a6c9f4a1e-text-1",
-        "template--15814370132015__3cc0137c-9505-44c4-a49f-f24a6c9f4a1e-button-1"
-      ],
-      "settings": {
-        "image_position": "center center",
-        "layout": "image_first",
-        "text_box_position": "middle",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "enlarge_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "image_behavior": "none",
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "enable_video_looping": false,
-        "video_url": "",
-        "use_custom_colors": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "ea5bbfe5-e6c6-415a-9c2a-97392488304a",
-    "3d3c7b33-6752-40bb-a013-2feda363dc0c",
-    "3b351148-f923-461c-b4be-ffe5723b9229",
-    "6ae92569-7cb1-43ec-9741-5ae2e146e464",
-    "beb4be42-e26f-4d74-9f9d-fbd11f70701f",
-    "3cc0137c-9505-44c4-a49f-f24a6c9f4a1e"
+    "f1b50099-78b3-41bc-8710-d8b02a44ef73"
   ]
 }
