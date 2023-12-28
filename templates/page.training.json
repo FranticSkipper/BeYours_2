@@ -31,7 +31,7 @@
         "bbdb7369-b548-42f7-9661-2b79e22306a4": {
           "type": "text",
           "settings": {
-            "text": "<p>Our team of coaches is made up of cosmetologists estheticians, doctors and certified trainers.<\/p>",
+            "text": "<p>Our team of coaches is made up of cosmetologists, estheticians, doctors and certified trainers.<\/p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
