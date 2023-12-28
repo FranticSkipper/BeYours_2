@@ -1321,7 +1321,7 @@
       ],
       "settings": {
         "per_row": 5,
-        "spacing_images": 4,
+        "spacing_images": 10,
         "image_height": 230,
         "apply_overlay": true,
         "full_width": false,
