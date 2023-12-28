@@ -9,7 +9,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Shop",
-            "menu": "footer"
+            "menu": "footer-shop"
           }
         },
         "footer-1": {
@@ -23,7 +23,7 @@
           "type": "link_list",
           "settings": {
             "heading": "More",
-            "menu": "footer"
+            "menu": "footer-more"
           }
         }
       },
