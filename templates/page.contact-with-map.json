@@ -313,7 +313,7 @@
         "template--16007549452335__cdb2f072-2ed2-4320-8123-3f6b1f43c8e7-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>#instagram<\/p>",
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/freihaut.canada\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/freihaut.canada\/\">#instagram<\/a><\/p>",
             "text_size": "typeset2",
             "secondary_color": false,
             "highlight_phrases": ""
