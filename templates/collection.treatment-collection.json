@@ -2,7 +2,6 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "heading_size": "h0",
         "show_description": true,
@@ -20,7 +19,6 @@
     },
     "subs": {
       "type": "main-collection-subs",
-      "disabled": true,
       "settings": {
         "menu": "",
         "per_row": 5,
