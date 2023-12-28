@@ -1050,14 +1050,14 @@
         "b8008224-3ae6-4fa0-90af-b8b06c0b0f79": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "cleansing-set-cleanser-toner-radiance-peel",
             "image_ratio": "adapt",
             "show_vendor": false,
             "show_quick_buy": false,
             "enable_quick_view": true,
             "color": "#ffffff",
             "horizontal": 38,
-            "vertical": 39
+            "vertical": 40
           }
         }
       },
