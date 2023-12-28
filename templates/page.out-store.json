@@ -96,6 +96,48 @@
         "colors_highlight": "#bbff00",
         "gradient_background": "",
         "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "c01c5217-4eb0-4578-89ca-ebfd0d70a183": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16061252042799__c01c5217-4eb0-4578-89ca-ebfd0d70a183-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "I want to change the way",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16061252042799__c01c5217-4eb0-4578-89ca-ebfd0d70a183-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are exiting the era of marketing-based skincare and entering the era of performance-based skincare. skincare needs to embrace the individuality and diverse skincare needs of every consumer<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16061252042799__c01c5217-4eb0-4578-89ca-ebfd0d70a183-heading-1",
+        "template--16061252042799__c01c5217-4eb0-4578-89ca-ebfd0d70a183-text-1"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 20,
         "padding_bottom": 36
       }
     }
@@ -103,6 +145,7 @@
   "order": [
     "main",
     "ea5bbfe5-e6c6-415a-9c2a-97392488304a",
-    "f1b50099-78b3-41bc-8710-d8b02a44ef73"
+    "f1b50099-78b3-41bc-8710-d8b02a44ef73",
+    "c01c5217-4eb0-4578-89ca-ebfd0d70a183"
   ]
 }
