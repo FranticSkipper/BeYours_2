@@ -28,7 +28,7 @@
         "image": "shopify:\/\/shop_images\/banner-1.jpg",
         "image_position": "center center",
         "text_box_position": "bottom-right",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "image_ratio": "450px",
         "show_text_box": false,
         "full_width": true,
