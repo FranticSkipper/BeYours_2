@@ -1005,6 +1005,73 @@
         "padding_bottom": 36
       }
     },
+    "9ef4f187-8da7-4624-8fcf-1eca12de2f10": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "template--16007548108847__9ef4f187-8da7-4624-8fcf-1eca12de2f10-announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "Welcome to our store",
+            "text_size": 20,
+            "link": ""
+          }
+        },
+        "template--16007548108847__9ef4f187-8da7-4624-8fcf-1eca12de2f10-announcement-2": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "Welcome to our store",
+            "text_size": 20,
+            "link": ""
+          }
+        },
+        "template--16007548108847__9ef4f187-8da7-4624-8fcf-1eca12de2f10-announcement-3": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "Welcome to our store",
+            "text_size": 20,
+            "link": ""
+          }
+        },
+        "template--16007548108847__9ef4f187-8da7-4624-8fcf-1eca12de2f10-announcement-4": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "Welcome to our store",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16007548108847__9ef4f187-8da7-4624-8fcf-1eca12de2f10-announcement-1",
+        "template--16007548108847__9ef4f187-8da7-4624-8fcf-1eca12de2f10-announcement-2",
+        "template--16007548108847__9ef4f187-8da7-4624-8fcf-1eca12de2f10-announcement-3",
+        "template--16007548108847__9ef4f187-8da7-4624-8fcf-1eca12de2f10-announcement-4"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "bundle-products": {
       "type": "bundle-products",
       "blocks": {
@@ -1527,6 +1594,7 @@
     "tab-collage",
     "image-comparison",
     "featured-product",
+    "9ef4f187-8da7-4624-8fcf-1eca12de2f10",
     "bundle-products",
     "image-with-text-overlay",
     "testimonials",
