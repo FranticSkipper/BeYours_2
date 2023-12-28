@@ -1324,7 +1324,7 @@
         "spacing_images": 10,
         "image_height": 230,
         "apply_overlay": true,
-        "full_width": false,
+        "full_width": true,
         "show_divider": false,
         "heading": "",
         "heading_size": "h1",
