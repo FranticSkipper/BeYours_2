@@ -298,6 +298,142 @@
         "padding_top": 36,
         "padding_bottom": 0
       }
+    },
+    "cdb2f072-2ed2-4320-8123-3f6b1f43c8e7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16007549452335__cdb2f072-2ed2-4320-8123-3f6b1f43c8e7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Follow Us",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16007549452335__cdb2f072-2ed2-4320-8123-3f6b1f43c8e7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>#instagram<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16007549452335__cdb2f072-2ed2-4320-8123-3f6b1f43c8e7-heading-1",
+        "template--16007549452335__cdb2f072-2ed2-4320-8123-3f6b1f43c8e7-text-1"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3bc4834a-812c-44e6-8426-b74d59cd05d3": {
+      "type": "gallery",
+      "blocks": {
+        "template--16007549452335__3bc4834a-812c-44e6-8426-b74d59cd05d3-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Retinol_Haute_Tolerance.jpg",
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--16007549452335__3bc4834a-812c-44e6-8426-b74d59cd05d3-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/citrus_care2.jpg",
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--16007549452335__3bc4834a-812c-44e6-8426-b74d59cd05d3-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/publicite_fr4.jpg",
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--16007549452335__3bc4834a-812c-44e6-8426-b74d59cd05d3-image-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Treatment_KIT2.jpg",
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "64d56aee-ec5e-475e-a219-971f5b10de72": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/redu_cel.jpg",
+            "image_position": "center center",
+            "subheading": "Subheading",
+            "subheading_size": "h5",
+            "heading": "Tell your story",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--16007549452335__3bc4834a-812c-44e6-8426-b74d59cd05d3-image-1",
+        "template--16007549452335__3bc4834a-812c-44e6-8426-b74d59cd05d3-image-2",
+        "template--16007549452335__3bc4834a-812c-44e6-8426-b74d59cd05d3-image-3",
+        "template--16007549452335__3bc4834a-812c-44e6-8426-b74d59cd05d3-image-4",
+        "64d56aee-ec5e-475e-a219-971f5b10de72"
+      ],
+      "settings": {
+        "per_row": 5,
+        "spacing_images": 10,
+        "image_height": 280,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "mobile_image_height": 160,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -306,6 +442,8 @@
     "form",
     "guarantees-0",
     "guarantees-1",
-    "map"
+    "map",
+    "cdb2f072-2ed2-4320-8123-3f6b1f43c8e7",
+    "3bc4834a-812c-44e6-8426-b74d59cd05d3"
   ]
 }
