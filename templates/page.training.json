@@ -104,7 +104,7 @@
         "text_alignment": "center",
         "mobile_text_alignment": "left",
         "horizontal_content": false,
-        "narrow": false,
+        "narrow": true,
         "show_divider": false,
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
