@@ -238,14 +238,14 @@
         "e8cdf27b-9658-451b-be03-aee670b8b419"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-3.jpg",
+        "image": "shopify:\/\/shop_images\/RTJR.jpg",
         "image_position": "center center",
-        "text_box_position": "middle-right",
+        "text_box_position": "middle-left",
         "text_alignment": "left",
         "image_ratio": "100vh",
         "show_text_box": true,
         "full_width": true,
-        "show_divider": false,
+        "show_divider": true,
         "image_behavior": "none",
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "auto",
