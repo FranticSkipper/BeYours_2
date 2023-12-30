@@ -100,11 +100,12 @@
         "template--15857792253999__e17cca87-c265-4005-b3e6-06fabf5a9df6-text-1",
         "e5418364-f9c7-42b2-a2b2-b0088e35f9ad"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "left",
         "horizontal_content": false,
-        "narrow": true,
+        "narrow": false,
         "show_divider": false,
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
@@ -123,28 +124,52 @@
         "template--15857792253999__e20a77e7-9da4-41b0-86af-5a43bd6f2904-guarantee-1": {
           "type": "guarantee",
           "settings": {
-            "icon": "none",
+            "icon": "question_mark",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "PROFESSIONAL ADVICE",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "aff6ee7f-ff99-46bf-a7ec-0f7f23c32628": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "",
-            "title_size": "h2",
-            "text": "<ul><li>Wide range of products, for both professional use and home care<\/li><li>R&D Department working on finding innovative active substances<\/li><li>Sales coaching<\/li><li>Merchandising<\/li><\/ul>"
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
+          }
+        },
+        "be4e04ad-8eb7-4690-aa19-99f56bcd64e9": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h3",
+            "text": "<p>Welcome to our store.<\/p>"
           }
         },
         "template--15857792253999__e20a77e7-9da4-41b0-86af-5a43bd6f2904-guarantee-2": {
           "type": "guarantee",
           "settings": {
-            "icon": "none",
-            "icon_size": "medium",
+            "icon": "lock",
+            "icon_size": "large",
             "custom_icon": "",
-            "title": "",
+            "title": "CONTINUOUS TRAINING FOR PROFESSIONALS",
             "title_size": "h3",
-            "text": "<ul><li>Specific treatments for every skin type<\/li><li>Continuous training of professionals<\/li><li>Advertising campaigns<\/li><li>Other marketing support inniciatives such as special offers, skin analysis meetings at the beauty salon, etc.<\/li><\/ul>"
+            "text": "<p><\/p><p><\/p>"
           }
         }
       },
       "block_order": [
         "template--15857792253999__e20a77e7-9da4-41b0-86af-5a43bd6f2904-guarantee-1",
+        "aff6ee7f-ff99-46bf-a7ec-0f7f23c32628",
+        "be4e04ad-8eb7-4690-aa19-99f56bcd64e9",
         "template--15857792253999__e20a77e7-9da4-41b0-86af-5a43bd6f2904-guarantee-2"
       ],
       "custom_css": [
@@ -153,10 +178,10 @@
       "settings": {
         "layout": "default",
         "column_alignment": "center",
-        "horizontal_content": true,
+        "horizontal_content": false,
         "full_width": false,
         "show_divider": false,
-        "heading": "We offer the following services:",
+        "heading": "WE OFFER THE FOLLOWING SERVICES:",
         "heading_size": "h1",
         "heading_tag": "h2",
         "columns_mobile": "1",
