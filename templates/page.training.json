@@ -50,7 +50,7 @@
         "image_ratio": "650px",
         "show_text_box": true,
         "full_width": true,
-        "show_divider": false,
+        "show_divider": true,
         "image_behavior": "none",
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "200px",
