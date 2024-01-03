@@ -159,7 +159,7 @@
       "settings": {
         "show_view_all": false,
         "show_divider": false,
-        "heading": "Collections",
+        "heading": "",
         "heading_size": "h1",
         "heading_alignment": "left",
         "heading_tag": "h2",
