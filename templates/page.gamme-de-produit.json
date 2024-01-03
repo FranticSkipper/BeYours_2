@@ -100,7 +100,6 @@
           "type": "featured_collection",
           "settings": {
             "collection": "take-a-breath",
-            "image": "shopify:\/\/shop_images\/take_breath.png",
             "image_position": "center center"
           }
         }
