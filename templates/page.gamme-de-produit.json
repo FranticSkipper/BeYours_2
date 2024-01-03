@@ -95,6 +95,13 @@
             "collection": "sun-touch",
             "image_position": "center center"
           }
+        },
+        "f80bc031-1eb7-4fb6-b1a7-6105085ff743": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sun-touch",
+            "image_position": "center center"
+          }
         }
       },
       "block_order": [
